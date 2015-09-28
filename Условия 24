@@ -1,0 +1,40 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+
+namespace Uslovshina24
+{
+    class Program
+    {
+        static void Main(string[] args)
+        /*24.	Даны три переменные: X, Y, Z. Если их значения упорядочены по убыванию, 
+        * то удвоить их; в противном случае заменить значение каждой переменной на противоположное. */
+        {
+            int X = 0, Y = 0, Z = 0;
+            Console.WriteLine("Вас приветствует программа для проведения операции по заданному условию: \n\"Если их значения упорядочены по убыванию, то удвоить их. В противном случае\nзаменить значение каждой переменной на противоположное.\"");
+            Console.WriteLine("Введите три числа:");
+            X = int.Parse(Console.ReadLine());
+            Y = int.Parse(Console.ReadLine());
+            Z = int.Parse(Console.ReadLine());
+            if (X > Y && Y > Z)
+            {
+                X *= 2;
+                Y *= 2;
+                Z *= 2;
+                Console.WriteLine("Числа были расположены по убыванию, поэтому они теперь удвоены.");
+                Console.WriteLine("Первое число равно {0}, второе число равно {1}, третье число равно {2}", X, Y, Z);
+            }
+            else
+            {
+                X = -X;
+                Y = -Y;
+                Z = -Z;
+                Console.WriteLine("Числа не были расположены по убыванию, поэтому им присвоены противоположные значения.");
+                Console.WriteLine("Первое число равно {0}, второе число равно {1}, третье число равно {2}", X, Y, Z);
+            }
+            Console.WriteLine("Нажмите Enter для выхода.");
+            Console.ReadLine();
+        }
+    }
+}

@@ -1,0 +1,38 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+
+namespace Uslovshina7
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            /*7.	Ввести три числа. Если они могут быть длинами сторон равнобедренного 
+             * тупоугольного треугольника, вычислить его площадь. Вывести длины сторон и площадь в порядке возрастания.*/
+            int First = 0, Second = 0, Third = 0, Side = 0, Base = 0;
+            double Square = 0, P = 0;
+            Console.WriteLine("Данная программа предназначена для вычисления площади тупоугольного\nравнобедренного треугольник по трём заданным сторонам.");
+            Console.WriteLine("Введите длины сторон треугольника:");
+            First = int.Parse(Console.ReadLine());
+            Second = int.Parse(Console.ReadLine());
+            Third = int.Parse(Console.ReadLine());
+            if (First > 0 & Second > 0 & Third > 0 & First + Second > Third & Second + Third > First & First + Third > Second & ((First * First + Second * Second < Third * Third) || (First * First + Third * Third < Second * Second) || (Third * Third + Second * Second < First * First)) & (First == Second || Second == Third || First == Third))
+            //II---------защита от дурака---------II---------------------------------проверка на треугольность---------------II-------------------------------------------------------------------------проверка на тупоугольность----------------------------------------------------------II---------проверка на равнобедренность-----------------II
+            {
+                P = (First + Second + Third) * 0.5;
+                Square = Math.Sqrt(P * (P - First) * (P - Second) * (P - Third));
+                Base = Math.Max(First, Math.Max(Second, Third));
+                Side = Math.Min(First, Math.Min(Second, Third));
+                Console.WriteLine("{0} {0} {1} {2}", Side, Base, Square);
+            }
+            else
+            {
+                Console.WriteLine("Треугольник с данной конфигурацией не существует или не соответствует поставленному условию.");
+            }
+            Console.WriteLine("Нажмите Enter для выхода...");
+            Console.ReadLine();
+        }
+    }
+}

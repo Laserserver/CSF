@@ -1,0 +1,37 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+
+namespace CyclesXIV
+{
+    class Program
+    {
+        static void Main(string[] args)
+        /*XIV. Сравнить результаты с точным значением функции, для которой данная сумма определяет 
+         * приближенное значение при x, лежащем в интервале (-R, R). R = 1. */
+        {
+            double x = 0, Ln = 0, Func = 0;
+            int n = 0, Sign = 1;
+            Console.WriteLine("Вас приветствует программа, проверяющая равенство двух функций при |X| < 1.\nПервая функция: ln(1+x)\nВторая функция: x/1 - x^2/2 + x^3/3 - ...");
+            Console.Write("Введите x: ");
+            double.TryParse(Console.ReadLine(), out x);
+            if (x != 0 && Math.Abs(x) < 1)
+            {
+                Console.Write("Введите N: ");
+                n = int.Parse(Console.ReadLine());
+                Ln = Math.Log(1 + x);
+                for (int i = 1; i <= n; i++)
+                {
+                    Func += Sign * Math.Pow(x, i) / i;
+                    Sign = -Sign;
+                }
+                Console.WriteLine("Первая функция при X = {0} равна {1}\nВторая функция при Х = {0} равна {2}", x, Ln, Func);
+            }
+            else
+                Console.WriteLine("Судя по всему, Вы ввели X как число с точкой вместо запятой или Х,\nне удовлетворяющий условию.");
+            Console.WriteLine("Для выхода из программы нажмите Enter.");
+            Console.ReadLine();
+        }
+    }
+}

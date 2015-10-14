@@ -16,7 +16,7 @@ namespace CyclesXIV
             Console.WriteLine("Вас приветствует программа, проверяющая равенство двух функций при |X| < 1.\nПервая функция: ln(1+x)\nВторая функция: x/1 - x^2/2 + x^3/3 - ...");
             Console.Write("Введите x: ");
             double.TryParse(Console.ReadLine(), out x);
-            if (x != 0 && Math.Abs(x) < 1)
+            if (x != 0 && x*x < 1)
             {
                 Console.Write("Введите N: ");
                 n = int.Parse(Console.ReadLine());

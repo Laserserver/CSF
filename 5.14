@@ -1,0 +1,26 @@
+            double a = 0, s = 0, x = 1;
+            bool ans = true;
+            a = double.Parse(Console.ReadLine());
+           // b = double.Parse(Console.ReadLine());
+           // s = a + b; 
+            s += a;
+            do
+            {
+                double.TryParse(Console.ReadLine(), out x);
+                if (x != 0)
+                {                    
+                    if (s == x)
+                        s += x;
+                    else
+                    {
+                        ans = false;
+                        s += x;
+                    }
+                }                
+            }
+            while (x != 0);
+            Console.WriteLine((ans) ? "Образует ряд" : "Не образует ряд");
+            Console.ReadLine();
+        }
+    }
+}

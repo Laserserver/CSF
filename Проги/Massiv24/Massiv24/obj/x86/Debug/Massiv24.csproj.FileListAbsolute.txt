@@ -1,0 +1,7 @@
+C:\Users\Maxx\AppData\Local\Temporary Projects\Massiv24\bin\Debug\Massiv24.exe
+C:\Users\Maxx\AppData\Local\Temporary Projects\Massiv24\bin\Debug\Massiv24.pdb
+C:\Users\Maxx\AppData\Local\Temporary Projects\Massiv24\obj\x86\Debug\Massiv24.Form1.resources
+C:\Users\Maxx\AppData\Local\Temporary Projects\Massiv24\obj\x86\Debug\Massiv24.Properties.Resources.resources
+C:\Users\Maxx\AppData\Local\Temporary Projects\Massiv24\obj\x86\Debug\Massiv24.csproj.GenerateResource.Cache
+C:\Users\Maxx\AppData\Local\Temporary Projects\Massiv24\obj\x86\Debug\Massiv24.exe
+C:\Users\Maxx\AppData\Local\Temporary Projects\Massiv24\obj\x86\Debug\Massiv24.pdb

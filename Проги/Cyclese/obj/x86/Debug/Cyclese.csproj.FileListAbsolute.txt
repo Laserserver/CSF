@@ -1,0 +1,7 @@
+D:\My_Files\1к\Проги\Cyclese\bin\Debug\Cyclese.exe
+D:\My_Files\1к\Проги\Cyclese\bin\Debug\Cyclese.pdb
+D:\My_Files\1к\Проги\Cyclese\obj\x86\Debug\Cyclese.exe
+D:\My_Files\1к\Проги\Cyclese\obj\x86\Debug\Cyclese.pdb
+D:\My_Files\1к\Проги\Cyclese\obj\x86\Debug\Cyclese.csprojResolveAssemblyReference.cache
+Z:\Программирование\Проги\Cyclese\obj\x86\Debug\Cyclese.exe
+Z:\Программирование\Проги\Cyclese\obj\x86\Debug\Cyclese.pdb

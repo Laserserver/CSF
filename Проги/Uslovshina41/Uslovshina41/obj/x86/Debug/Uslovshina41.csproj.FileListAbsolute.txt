@@ -1,0 +1,13 @@
+Z:\Программирование\Uslovshina41\Uslovshina41\bin\Debug\Uslovshina41.exe
+Z:\Программирование\Uslovshina41\Uslovshina41\bin\Debug\Uslovshina41.pdb
+Z:\Программирование\Uslovshina41\Uslovshina41\obj\x86\Debug\Uslovshina41.exe
+Z:\Программирование\Uslovshina41\Uslovshina41\obj\x86\Debug\Uslovshina41.pdb
+E:\ВГУ\Программирование\Uslovshina41\Uslovshina41\obj\x86\Debug\Uslovshina41.exe
+E:\ВГУ\Программирование\Uslovshina41\Uslovshina41\obj\x86\Debug\Uslovshina41.pdb
+E:\ВГУ\Программирование\Uslovshina41\Uslovshina41\bin\Debug\Uslovshina41.exe
+E:\ВГУ\Программирование\Uslovshina41\Uslovshina41\bin\Debug\Uslovshina41.pdb
+F:\ВГУ\Программирование\Uslovshina41\Uslovshina41\obj\x86\Debug\Uslovshina41.exe
+F:\ВГУ\Программирование\Uslovshina41\Uslovshina41\obj\x86\Debug\Uslovshina41.pdb
+F:\ВГУ\Программирование\Uslovshina41\Uslovshina41\bin\Debug\Uslovshina41.exe
+F:\ВГУ\Программирование\Uslovshina41\Uslovshina41\bin\Debug\Uslovshina41.pdb
+F:\ВГУ\Программирование\Uslovshina41\Uslovshina41\obj\x86\Debug\Uslovshina41.csprojResolveAssemblyReference.cache

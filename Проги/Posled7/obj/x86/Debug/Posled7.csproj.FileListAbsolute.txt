@@ -1,0 +1,13 @@
+C:\Users\Maxx\AppData\Local\Temporary Projects\Posled7\bin\Debug\Posled7.exe
+C:\Users\Maxx\AppData\Local\Temporary Projects\Posled7\bin\Debug\Posled7.pdb
+C:\Users\Maxx\AppData\Local\Temporary Projects\Posled7\obj\x86\Debug\Posled7.exe
+C:\Users\Maxx\AppData\Local\Temporary Projects\Posled7\obj\x86\Debug\Posled7.pdb
+D:\My_Files\1к\Проги\Posled7\obj\x86\Debug\Posled7.exe
+D:\My_Files\1к\Проги\Posled7\obj\x86\Debug\Posled7.pdb
+Z:\Программирование\Проги\Posled7\obj\x86\Debug\Posled7.exe
+Z:\Программирование\Проги\Posled7\obj\x86\Debug\Posled7.pdb
+Z:\Программирование\Проги\Posled7\bin\Debug\Posled7.exe
+Z:\Программирование\Проги\Posled7\bin\Debug\Posled7.pdb
+Z:\Программирование\Проги\Posled7\obj\x86\Debug\ResolveAssemblyReference.cache
+F:\ВГУ\Программирование\Проги\Posled7\obj\x86\Debug\Posled7.exe
+F:\ВГУ\Программирование\Проги\Posled7\obj\x86\Debug\Posled7.pdb

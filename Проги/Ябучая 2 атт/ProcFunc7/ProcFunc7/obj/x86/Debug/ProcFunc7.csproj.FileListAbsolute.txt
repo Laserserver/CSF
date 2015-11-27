@@ -20,3 +20,5 @@ F:\Проги к ябучей 2 атт\ProcFunc7\ProcFunc7\obj\x86\Debug\ProcFun
 F:\Проги к ябучей 2 атт\ProcFunc7\ProcFunc7\obj\x86\Debug\ProcFunc7.FuncProc7.resources
 F:\Проги к ябучей 2 атт\ProcFunc7\ProcFunc7\obj\x86\Debug\ProcFunc7.Properties.Resources.resources
 F:\Проги к ябучей 2 атт\ProcFunc7\ProcFunc7\obj\x86\Debug\ProcFunc7.csproj.GenerateResource.Cache
+D:\Storage\Github\CSF\Проги\Ябучая 2 атт\ProcFunc7\ProcFunc7\obj\x86\Debug\ProcFunc7.exe
+D:\Storage\Github\CSF\Проги\Ябучая 2 атт\ProcFunc7\ProcFunc7\obj\x86\Debug\ProcFunc7.pdb

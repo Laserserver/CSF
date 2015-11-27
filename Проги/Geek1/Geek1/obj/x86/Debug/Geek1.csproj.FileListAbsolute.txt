@@ -12,3 +12,5 @@ D:\My_Files\1к\Проги\Geek1\Geek1\bin\Debug\Geek1.pdb
 D:\My_Files\1к\Проги\Geek1\Geek1\obj\x86\Debug\Geek1.MainForm.resources
 D:\My_Files\1к\Проги\Geek1\Geek1\obj\x86\Debug\Geek1.Properties.Resources.resources
 D:\My_Files\1к\Проги\Geek1\Geek1\obj\x86\Debug\Geek1.csproj.GenerateResource.Cache
+D:\Storage\Github\CSF\Проги\Geek1\Geek1\obj\x86\Debug\Geek1.exe
+D:\Storage\Github\CSF\Проги\Geek1\Geek1\obj\x86\Debug\Geek1.pdb

@@ -21,3 +21,5 @@ Z:\Программирование\Проги\CyclesVII\obj\x86\Debug\CyclesVII
 Z:\Программирование\Проги\CyclesVII\bin\Debug\CyclesVII.exe
 Z:\Программирование\Проги\CyclesVII\bin\Debug\CyclesVII.pdb
 Z:\Программирование\Проги\CyclesVII\obj\x86\Debug\CyclesVII.csprojResolveAssemblyReference.cache
+D:\Storage\Github\CSF\Проги\CyclesVII\obj\x86\Debug\CyclesVII.exe
+D:\Storage\Github\CSF\Проги\CyclesVII\obj\x86\Debug\CyclesVII.pdb

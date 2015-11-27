@@ -1,0 +1,7 @@
+C:\Users\Maxx\AppData\Local\Temporary Projects\Matrix17\bin\Debug\Matrix17.exe
+C:\Users\Maxx\AppData\Local\Temporary Projects\Matrix17\bin\Debug\Matrix17.pdb
+C:\Users\Maxx\AppData\Local\Temporary Projects\Matrix17\obj\x86\Debug\Matrix17.Matrix17.resources
+C:\Users\Maxx\AppData\Local\Temporary Projects\Matrix17\obj\x86\Debug\Matrix17.Properties.Resources.resources
+C:\Users\Maxx\AppData\Local\Temporary Projects\Matrix17\obj\x86\Debug\Matrix17.csproj.GenerateResource.Cache
+C:\Users\Maxx\AppData\Local\Temporary Projects\Matrix17\obj\x86\Debug\Matrix17.exe
+C:\Users\Maxx\AppData\Local\Temporary Projects\Matrix17\obj\x86\Debug\Matrix17.pdb

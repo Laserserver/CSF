@@ -19,3 +19,5 @@ F:\ВГУ\Программирование\Проги\Stroka24\Stroka24\bin\Debu
 F:\ВГУ\Программирование\Проги\Stroka24\Stroka24\obj\x86\Debug\Stroka24.MainFormStroka24.resources
 F:\ВГУ\Программирование\Проги\Stroka24\Stroka24\obj\x86\Debug\Stroka24.Properties.Resources.resources
 F:\ВГУ\Программирование\Проги\Stroka24\Stroka24\obj\x86\Debug\Stroka24.csproj.GenerateResource.Cache
+D:\Storage\Github\CSF\Проги\Stroka24\Stroka24\obj\x86\Debug\Stroka24.exe
+D:\Storage\Github\CSF\Проги\Stroka24\Stroka24\obj\x86\Debug\Stroka24.pdb

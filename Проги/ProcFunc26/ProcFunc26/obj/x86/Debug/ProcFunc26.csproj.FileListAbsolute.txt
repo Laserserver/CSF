@@ -1,0 +1,7 @@
+C:\Users\Maxx\AppData\Local\Temporary Projects\ProcFunc26\bin\Debug\ProcFunc26.exe
+C:\Users\Maxx\AppData\Local\Temporary Projects\ProcFunc26\bin\Debug\ProcFunc26.pdb
+C:\Users\Maxx\AppData\Local\Temporary Projects\ProcFunc26\obj\x86\Debug\ProcFunc26.ProcFunc26.resources
+C:\Users\Maxx\AppData\Local\Temporary Projects\ProcFunc26\obj\x86\Debug\ProcFunc26.Properties.Resources.resources
+C:\Users\Maxx\AppData\Local\Temporary Projects\ProcFunc26\obj\x86\Debug\ProcFunc26.csproj.GenerateResource.Cache
+C:\Users\Maxx\AppData\Local\Temporary Projects\ProcFunc26\obj\x86\Debug\ProcFunc26.exe
+C:\Users\Maxx\AppData\Local\Temporary Projects\ProcFunc26\obj\x86\Debug\ProcFunc26.pdb

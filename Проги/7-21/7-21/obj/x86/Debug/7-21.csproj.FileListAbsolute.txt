@@ -1,7 +1,0 @@
-C:\Users\Maxx\AppData\Local\Temporary Projects\7-21\bin\Debug\7-21.exe
-C:\Users\Maxx\AppData\Local\Temporary Projects\7-21\bin\Debug\7-21.pdb
-C:\Users\Maxx\AppData\Local\Temporary Projects\7-21\obj\x86\Debug\_7_21.Form1.resources
-C:\Users\Maxx\AppData\Local\Temporary Projects\7-21\obj\x86\Debug\_7_21.Properties.Resources.resources
-C:\Users\Maxx\AppData\Local\Temporary Projects\7-21\obj\x86\Debug\7-21.csproj.GenerateResource.Cache
-C:\Users\Maxx\AppData\Local\Temporary Projects\7-21\obj\x86\Debug\7-21.exe
-C:\Users\Maxx\AppData\Local\Temporary Projects\7-21\obj\x86\Debug\7-21.pdb

@@ -1,7 +1,0 @@
-C:\Users\Maxx\AppData\Local\Temporary Projects\Matrix6\bin\Debug\Matrix6.exe
-C:\Users\Maxx\AppData\Local\Temporary Projects\Matrix6\bin\Debug\Matrix6.pdb
-C:\Users\Maxx\AppData\Local\Temporary Projects\Matrix6\obj\x86\Debug\Matrix6.Matrix6.resources
-C:\Users\Maxx\AppData\Local\Temporary Projects\Matrix6\obj\x86\Debug\Matrix6.Properties.Resources.resources
-C:\Users\Maxx\AppData\Local\Temporary Projects\Matrix6\obj\x86\Debug\Matrix6.csproj.GenerateResource.Cache
-C:\Users\Maxx\AppData\Local\Temporary Projects\Matrix6\obj\x86\Debug\Matrix6.exe
-C:\Users\Maxx\AppData\Local\Temporary Projects\Matrix6\obj\x86\Debug\Matrix6.pdb

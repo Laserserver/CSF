@@ -1,0 +1,31 @@
+C:\Users\Maxx\AppData\Local\Temporary Projects\Massiv24\bin\Debug\Massiv24.exe
+C:\Users\Maxx\AppData\Local\Temporary Projects\Massiv24\bin\Debug\Massiv24.pdb
+C:\Users\Maxx\AppData\Local\Temporary Projects\Massiv24\obj\x86\Debug\Massiv24.Form1.resources
+C:\Users\Maxx\AppData\Local\Temporary Projects\Massiv24\obj\x86\Debug\Massiv24.Properties.Resources.resources
+C:\Users\Maxx\AppData\Local\Temporary Projects\Massiv24\obj\x86\Debug\Massiv24.csproj.GenerateResource.Cache
+C:\Users\Maxx\AppData\Local\Temporary Projects\Massiv24\obj\x86\Debug\Massiv24.exe
+C:\Users\Maxx\AppData\Local\Temporary Projects\Massiv24\obj\x86\Debug\Massiv24.pdb
+F:\Программирование\БЕКАП\Massiv24\Massiv24\obj\x86\Debug\Massiv24.exe
+F:\Программирование\БЕКАП\Massiv24\Massiv24\obj\x86\Debug\Massiv24.pdb
+F:\Программирование\БЕКАП\Massiv24\Massiv24\bin\Debug\Massiv24.exe
+F:\Программирование\БЕКАП\Massiv24\Massiv24\bin\Debug\Massiv24.pdb
+F:\Программирование\БЕКАП\Massiv24\Massiv24\obj\x86\Debug\Massiv24.Form1.resources
+F:\Программирование\БЕКАП\Massiv24\Massiv24\obj\x86\Debug\Massiv24.Properties.Resources.resources
+F:\Программирование\БЕКАП\Massiv24\Massiv24\obj\x86\Debug\Massiv24.csproj.GenerateResource.Cache
+F:\Проги к ябучей 2 атт\Massiv24\Massiv24\obj\x86\Debug\Massiv24.exe
+F:\Проги к ябучей 2 атт\Massiv24\Massiv24\obj\x86\Debug\Massiv24.pdb
+F:\Проги к ябучей 2 атт\Massiv24\Massiv24\bin\Debug\Massiv24.exe
+F:\Проги к ябучей 2 атт\Massiv24\Massiv24\bin\Debug\Massiv24.pdb
+F:\Проги к ябучей 2 атт\Massiv24\Massiv24\obj\x86\Debug\Massiv24.csprojResolveAssemblyReference.cache
+F:\Проги к ябучей 2 атт\Massiv24\Massiv24\obj\x86\Debug\Massiv24.Form1.resources
+F:\Проги к ябучей 2 атт\Massiv24\Massiv24\obj\x86\Debug\Massiv24.Properties.Resources.resources
+F:\Проги к ябучей 2 атт\Massiv24\Massiv24\obj\x86\Debug\Massiv24.csproj.GenerateResource.Cache
+Z:\Программирование\Проги к ябучей 2 атт\Massiv24\Massiv24\obj\x86\Debug\Massiv24.exe
+Z:\Программирование\Проги к ябучей 2 атт\Massiv24\Massiv24\obj\x86\Debug\Massiv24.pdb
+Z:\Программирование\Проги к ябучей 2 атт\Massiv24\Massiv24\bin\Debug\Massiv24.exe
+Z:\Программирование\Проги к ябучей 2 атт\Massiv24\Massiv24\bin\Debug\Massiv24.pdb
+Z:\Программирование\Проги к ябучей 2 атт\Massiv24\Massiv24\obj\x86\Debug\ResolveAssemblyReference.cache
+Z:\Программирование\Проги к ябучей 2 атт\Massiv24\Massiv24\obj\x86\Debug\Massiv24.StrMainForm.resources
+Z:\Программирование\Проги к ябучей 2 атт\Massiv24\Massiv24\obj\x86\Debug\Massiv24.Properties.Resources.resources
+Z:\Программирование\Проги к ябучей 2 атт\Massiv24\Massiv24\obj\x86\Debug\GenerateResource.read.1.tlog
+Z:\Программирование\Проги к ябучей 2 атт\Massiv24\Massiv24\obj\x86\Debug\GenerateResource.write.1.tlog

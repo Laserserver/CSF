@@ -1,9 +1,0 @@
-C:\Users\Maxx\AppData\Local\Temporary Projects\ProcFunc7\bin\Debug\ProcFunc7.exe
-C:\Users\Maxx\AppData\Local\Temporary Projects\ProcFunc7\bin\Debug\ProcFunc7.pdb
-C:\Users\Maxx\AppData\Local\Temporary Projects\ProcFunc7\obj\x86\Debug\ProcFunc7.FuncProc7.resources
-C:\Users\Maxx\AppData\Local\Temporary Projects\ProcFunc7\obj\x86\Debug\ProcFunc7.Properties.Resources.resources
-C:\Users\Maxx\AppData\Local\Temporary Projects\ProcFunc7\obj\x86\Debug\ProcFunc7.csproj.GenerateResource.Cache
-C:\Users\Maxx\AppData\Local\Temporary Projects\ProcFunc7\obj\x86\Debug\ProcFunc7.exe
-C:\Users\Maxx\AppData\Local\Temporary Projects\ProcFunc7\obj\x86\Debug\ProcFunc7.pdb
-D:\Storage\Github\CSF\Проги\ProcFunc7\ProcFunc7\obj\x86\Debug\ProcFunc7.exe
-D:\Storage\Github\CSF\Проги\ProcFunc7\ProcFunc7\obj\x86\Debug\ProcFunc7.pdb

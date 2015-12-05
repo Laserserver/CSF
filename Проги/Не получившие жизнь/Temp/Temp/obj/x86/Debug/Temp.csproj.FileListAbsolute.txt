@@ -1,0 +1,9 @@
+Z:\Программирование\Проги\Temp\Temp\bin\Debug\Temp.exe
+Z:\Программирование\Проги\Temp\Temp\bin\Debug\Temp.pdb
+Z:\Программирование\Проги\Temp\Temp\obj\x86\Debug\Temp.Properties.Resources.resources
+Z:\Программирование\Проги\Temp\Temp\obj\x86\Debug\Temp.csproj.GenerateResource.Cache
+Z:\Программирование\Проги\Temp\Temp\obj\x86\Debug\Temp.exe
+Z:\Программирование\Проги\Temp\Temp\obj\x86\Debug\Temp.pdb
+Z:\Программирование\Проги\Temp\Temp\obj\x86\Debug\Temp.MyString7.resources
+D:\Storage\Github\CSF\Проги\Temp\Temp\obj\x86\Debug\Temp.exe
+D:\Storage\Github\CSF\Проги\Temp\Temp\obj\x86\Debug\Temp.pdb

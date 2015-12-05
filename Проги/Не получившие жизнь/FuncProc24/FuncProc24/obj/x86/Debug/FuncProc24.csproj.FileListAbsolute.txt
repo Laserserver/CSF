@@ -1,0 +1,27 @@
+C:\Users\Maxx\AppData\Local\Temporary Projects\FuncProc24\bin\Debug\FuncProc24.exe
+C:\Users\Maxx\AppData\Local\Temporary Projects\FuncProc24\bin\Debug\FuncProc24.pdb
+C:\Users\Maxx\AppData\Local\Temporary Projects\FuncProc24\obj\x86\Debug\FuncProc24.FP24.resources
+C:\Users\Maxx\AppData\Local\Temporary Projects\FuncProc24\obj\x86\Debug\FuncProc24.Properties.Resources.resources
+C:\Users\Maxx\AppData\Local\Temporary Projects\FuncProc24\obj\x86\Debug\FuncProc24.csproj.GenerateResource.Cache
+C:\Users\Maxx\AppData\Local\Temporary Projects\FuncProc24\obj\x86\Debug\FuncProc24.exe
+C:\Users\Maxx\AppData\Local\Temporary Projects\FuncProc24\obj\x86\Debug\FuncProc24.pdb
+D:\Storage\Github\CSF\Проги\FuncProc24\FuncProc24\obj\x86\Debug\FuncProc24.exe
+D:\Storage\Github\CSF\Проги\FuncProc24\FuncProc24\obj\x86\Debug\FuncProc24.pdb
+D:\Storage\Github\CSF\Проги\FuncProc24\FuncProc24\bin\Debug\FuncProc24.exe
+D:\Storage\Github\CSF\Проги\FuncProc24\FuncProc24\bin\Debug\FuncProc24.pdb
+D:\Storage\Github\CSF\Проги\FuncProc24\FuncProc24\obj\x86\Debug\FuncProc24.csprojResolveAssemblyReference.cache
+D:\Storage\Github\CSF\Проги\FuncProc24\FuncProc24\obj\x86\Debug\FuncProc24.FP24.resources
+D:\Storage\Github\CSF\Проги\FuncProc24\FuncProc24\obj\x86\Debug\FuncProc24.Properties.Resources.resources
+D:\Storage\Github\CSF\Проги\FuncProc24\FuncProc24\obj\x86\Debug\FuncProc24.csproj.GenerateResource.Cache
+F:\Проги к ябучей 2 атт\FuncProc24\FuncProc24\obj\x86\Debug\FuncProc24.exe
+F:\Проги к ябучей 2 атт\FuncProc24\FuncProc24\obj\x86\Debug\FuncProc24.pdb
+Z:\Программирование\Проги к ябучей 2 атт\FuncProc24\FuncProc24\obj\x86\Debug\FuncProc24.exe
+Z:\Программирование\Проги к ябучей 2 атт\FuncProc24\FuncProc24\obj\x86\Debug\FuncProc24.pdb
+Z:\Программирование\Проги к ябучей 2 атт\FuncProc24\FuncProc24\bin\Debug\FuncProc24.exe
+Z:\Программирование\Проги к ябучей 2 атт\FuncProc24\FuncProc24\bin\Debug\FuncProc24.pdb
+Z:\Программирование\Проги к ябучей 2 атт\FuncProc24\FuncProc24\obj\x86\Debug\FuncProc24.csprojResolveAssemblyReference.cache
+Z:\Программирование\Проги к ябучей 2 атт\FuncProc24\FuncProc24\obj\x86\Debug\FuncProc24.FP24.resources
+Z:\Программирование\Проги к ябучей 2 атт\FuncProc24\FuncProc24\obj\x86\Debug\FuncProc24.Properties.Resources.resources
+Z:\Программирование\Проги к ябучей 2 атт\FuncProc24\FuncProc24\obj\x86\Debug\FuncProc24.csproj.GenerateResource.Cache
+D:\Storage\Github\CSF\Проги\2 атт\FuncProc24\FuncProc24\obj\x86\Debug\FuncProc24.exe
+D:\Storage\Github\CSF\Проги\2 атт\FuncProc24\FuncProc24\obj\x86\Debug\FuncProc24.pdb

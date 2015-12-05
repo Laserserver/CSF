@@ -1,7 +1,0 @@
-F:\ВГУ\Программирование\Проги\Stroka24\Stroka24\bin\Release\Stroka24.exe
-F:\ВГУ\Программирование\Проги\Stroka24\Stroka24\bin\Release\Stroka24.pdb
-F:\ВГУ\Программирование\Проги\Stroka24\Stroka24\obj\x86\Release\Stroka24.MainFormStroka24.resources
-F:\ВГУ\Программирование\Проги\Stroka24\Stroka24\obj\x86\Release\Stroka24.Properties.Resources.resources
-F:\ВГУ\Программирование\Проги\Stroka24\Stroka24\obj\x86\Release\Stroka24.csproj.GenerateResource.Cache
-F:\ВГУ\Программирование\Проги\Stroka24\Stroka24\obj\x86\Release\Stroka24.exe
-F:\ВГУ\Программирование\Проги\Stroka24\Stroka24\obj\x86\Release\Stroka24.pdb

@@ -1,0 +1,26 @@
+C:\Users\Maxx\AppData\Local\Temporary Projects\ProcFunc26\bin\Debug\ProcFunc26.exe
+C:\Users\Maxx\AppData\Local\Temporary Projects\ProcFunc26\bin\Debug\ProcFunc26.pdb
+C:\Users\Maxx\AppData\Local\Temporary Projects\ProcFunc26\obj\x86\Debug\ProcFunc26.ProcFunc26.resources
+C:\Users\Maxx\AppData\Local\Temporary Projects\ProcFunc26\obj\x86\Debug\ProcFunc26.Properties.Resources.resources
+C:\Users\Maxx\AppData\Local\Temporary Projects\ProcFunc26\obj\x86\Debug\ProcFunc26.csproj.GenerateResource.Cache
+C:\Users\Maxx\AppData\Local\Temporary Projects\ProcFunc26\obj\x86\Debug\ProcFunc26.exe
+C:\Users\Maxx\AppData\Local\Temporary Projects\ProcFunc26\obj\x86\Debug\ProcFunc26.pdb
+F:\Проги к ябучей 2 атт\ProcFunc26\ProcFunc26\obj\x86\Debug\ProcFunc26.exe
+F:\Проги к ябучей 2 атт\ProcFunc26\ProcFunc26\obj\x86\Debug\ProcFunc26.pdb
+F:\Проги к ябучей 2 атт\ProcFunc26\ProcFunc26\bin\Debug\ProcFunc26.exe
+F:\Проги к ябучей 2 атт\ProcFunc26\ProcFunc26\bin\Debug\ProcFunc26.pdb
+F:\Проги к ябучей 2 атт\ProcFunc26\ProcFunc26\obj\x86\Debug\ProcFunc26.ProcFunc26.resources
+F:\Проги к ябучей 2 атт\ProcFunc26\ProcFunc26\obj\x86\Debug\ProcFunc26.Properties.Resources.resources
+F:\Проги к ябучей 2 атт\ProcFunc26\ProcFunc26\obj\x86\Debug\ProcFunc26.csproj.GenerateResource.Cache
+F:\Проги к ябучей 2 атт\ProcFunc26\ProcFunc26\obj\x86\Debug\ProcFunc26.csprojResolveAssemblyReference.cache
+Z:\Программирование\Проги к ябучей 2 атт\ProcFunc26\ProcFunc26\obj\x86\Debug\ProcFunc26.exe
+Z:\Программирование\Проги к ябучей 2 атт\ProcFunc26\ProcFunc26\obj\x86\Debug\ProcFunc26.pdb
+Z:\Программирование\Проги к ябучей 2 атт\ProcFunc26\ProcFunc26\bin\Debug\ProcFunc26.exe
+Z:\Программирование\Проги к ябучей 2 атт\ProcFunc26\ProcFunc26\bin\Debug\ProcFunc26.pdb
+Z:\Программирование\Проги к ябучей 2 атт\ProcFunc26\ProcFunc26\obj\x86\Debug\ResolveAssemblyReference.cache
+Z:\Программирование\Проги к ябучей 2 атт\ProcFunc26\ProcFunc26\obj\x86\Debug\ProcFunc26.ProcFunc26.resources
+Z:\Программирование\Проги к ябучей 2 атт\ProcFunc26\ProcFunc26\obj\x86\Debug\ProcFunc26.Properties.Resources.resources
+Z:\Программирование\Проги к ябучей 2 атт\ProcFunc26\ProcFunc26\obj\x86\Debug\GenerateResource.read.1.tlog
+Z:\Программирование\Проги к ябучей 2 атт\ProcFunc26\ProcFunc26\obj\x86\Debug\GenerateResource.write.1.tlog
+D:\Storage\Github\CSF\Проги\2 атт\ProcFunc26\ProcFunc26\obj\x86\Debug\ProcFunc26.exe
+D:\Storage\Github\CSF\Проги\2 атт\ProcFunc26\ProcFunc26\obj\x86\Debug\ProcFunc26.pdb

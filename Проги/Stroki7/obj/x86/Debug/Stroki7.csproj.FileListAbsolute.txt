@@ -1,6 +1,0 @@
-C:\Users\Maxx\AppData\Local\Temporary Projects\Stroki7\bin\Debug\Stroki7.exe
-C:\Users\Maxx\AppData\Local\Temporary Projects\Stroki7\bin\Debug\Stroki7.pdb
-C:\Users\Maxx\AppData\Local\Temporary Projects\Stroki7\obj\x86\Debug\Stroki7.exe
-C:\Users\Maxx\AppData\Local\Temporary Projects\Stroki7\obj\x86\Debug\Stroki7.pdb
-E:\ВГУ\Программирование\Проги\Stroki7\obj\x86\Debug\Stroki7.exe
-E:\ВГУ\Программирование\Проги\Stroki7\obj\x86\Debug\Stroki7.pdb

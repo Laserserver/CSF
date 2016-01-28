@@ -1,0 +1,7 @@
+C:\Users\Maxx\AppData\Local\Temporary Projects\DrawingTry\bin\Debug\DrawingTry.exe
+C:\Users\Maxx\AppData\Local\Temporary Projects\DrawingTry\bin\Debug\DrawingTry.pdb
+C:\Users\Maxx\AppData\Local\Temporary Projects\DrawingTry\obj\x86\Debug\DrawingTry.DrawTry.resources
+C:\Users\Maxx\AppData\Local\Temporary Projects\DrawingTry\obj\x86\Debug\DrawingTry.Properties.Resources.resources
+C:\Users\Maxx\AppData\Local\Temporary Projects\DrawingTry\obj\x86\Debug\DrawingTry.csproj.GenerateResource.Cache
+C:\Users\Maxx\AppData\Local\Temporary Projects\DrawingTry\obj\x86\Debug\DrawingTry.exe
+C:\Users\Maxx\AppData\Local\Temporary Projects\DrawingTry\obj\x86\Debug\DrawingTry.pdb

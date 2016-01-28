@@ -12,3 +12,4 @@ D:\Storage\Github\CSF\Проги\3 атт\Mnozhestva7\Mnozhestva7\bin\Debug\Mnoz
 D:\Storage\Github\CSF\Проги\3 атт\Mnozhestva7\Mnozhestva7\obj\x86\Debug\Mnozhestva7.Form1.resources
 D:\Storage\Github\CSF\Проги\3 атт\Mnozhestva7\Mnozhestva7\obj\x86\Debug\Mnozhestva7.Properties.Resources.resources
 D:\Storage\Github\CSF\Проги\3 атт\Mnozhestva7\Mnozhestva7\obj\x86\Debug\Mnozhestva7.csproj.GenerateResource.Cache
+D:\Storage\Github\CSF\Проги\3 атт\Mnozhestva7\Mnozhestva7\obj\x86\Debug\Mnozhestva7.csprojResolveAssemblyReference.cache

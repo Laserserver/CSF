@@ -1,0 +1,47 @@
+3
+1
+A
+4
+xxxxx essef
+qwerrr fds sf
+faf  ww eew
+fdssd  te ew tw
+3
+B
+2
+wenhexnvbn  fxd 
+kheih h h hidsfh
+11
+A
+1
+kjhjkshkjh asg iagi  iuad isai s
+2
+Subj name
+10
+themeX
+0   //0=lecture, 1=practice, ......
+themeY
+1
+themeY
+1
+themeY
+1
+themeY
+1
+themeY
+1
+themeY
+1
+themeY
+1
+themeY
+1
+themeY
+1
+SubRTTTRTRT
+1
+recursion
+1
+3
+Ngr, NSubj
+x Занятий

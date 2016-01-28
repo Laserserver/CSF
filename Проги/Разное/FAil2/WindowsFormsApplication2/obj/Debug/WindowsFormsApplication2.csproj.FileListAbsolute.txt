@@ -1,0 +1,22 @@
+C:\Users\User\Desktop\projects\WindowsFormsApplication2\WindowsFormsApplication2\bin\Debug\WindowsFormsApplication2.exe.config
+C:\Users\User\Desktop\projects\FAil1\WindowsFormsApplication2\bin\Debug\WindowsFormsApplication2.exe.config
+C:\Users\User\Desktop\projects\FAil1\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.csprojResolveAssemblyReference.cache
+C:\Users\User\Desktop\projects\FAil1\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.Properties.Resources.resources
+C:\Users\User\Desktop\projects\FAil1\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.csproj.GenerateResource.Cache
+C:\Users\User\Desktop\projects\FAil1\WindowsFormsApplication2\bin\Debug\WindowsFormsApplication2.exe
+C:\Users\User\Desktop\projects\FAil1\WindowsFormsApplication2\bin\Debug\WindowsFormsApplication2.pdb
+C:\Users\User\Desktop\projects\FAil1\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.Fail1.resources
+C:\Users\User\Desktop\projects\FAil1\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.exe
+C:\Users\User\Desktop\projects\FAil1\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.pdb
+C:\Users\User\Desktop\3 атт\FAil2\WindowsFormsApplication2\bin\Debug\WindowsFormsApplication2.exe.config
+C:\Users\User\Desktop\3 атт\FAil2\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.exe
+C:\Users\User\Desktop\3 атт\FAil2\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.pdb
+D:\Storage\Github\CSF\Проги\Разное\FAil2\WindowsFormsApplication2\bin\Debug\WindowsFormsApplication2.exe.config
+D:\Storage\Github\CSF\Проги\Разное\FAil2\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.exe
+D:\Storage\Github\CSF\Проги\Разное\FAil2\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.pdb
+D:\Storage\Github\CSF\Проги\Разное\FAil2\WindowsFormsApplication2\bin\Debug\WindowsFormsApplication2.exe
+D:\Storage\Github\CSF\Проги\Разное\FAil2\WindowsFormsApplication2\bin\Debug\WindowsFormsApplication2.pdb
+D:\Storage\Github\CSF\Проги\Разное\FAil2\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.csprojResolveAssemblyReference.cache
+D:\Storage\Github\CSF\Проги\Разное\FAil2\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.Fail1.resources
+D:\Storage\Github\CSF\Проги\Разное\FAil2\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.Properties.Resources.resources
+D:\Storage\Github\CSF\Проги\Разное\FAil2\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.csproj.GenerateResource.Cache

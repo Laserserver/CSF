@@ -1,0 +1,7 @@
+C:\Users\Maxx\AppData\Local\Temporary Projects\ProjectRed\bin\Debug\ProjectRed.exe
+C:\Users\Maxx\AppData\Local\Temporary Projects\ProjectRed\bin\Debug\ProjectRed.pdb
+C:\Users\Maxx\AppData\Local\Temporary Projects\ProjectRed\obj\x86\Debug\ProjectRed.ProjectRed.resources
+C:\Users\Maxx\AppData\Local\Temporary Projects\ProjectRed\obj\x86\Debug\ProjectRed.Properties.Resources.resources
+C:\Users\Maxx\AppData\Local\Temporary Projects\ProjectRed\obj\x86\Debug\ProjectRed.csproj.GenerateResource.Cache
+C:\Users\Maxx\AppData\Local\Temporary Projects\ProjectRed\obj\x86\Debug\ProjectRed.exe
+C:\Users\Maxx\AppData\Local\Temporary Projects\ProjectRed\obj\x86\Debug\ProjectRed.pdb

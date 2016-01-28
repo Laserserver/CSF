@@ -1,0 +1,11 @@
+D:\Storage\Github\CSF\Проги\Разное\[Sharecode.vn] Source code game lines 2008\Lines2008\obj\Debug\Lines2008.exe
+D:\Storage\Github\CSF\Проги\Разное\[Sharecode.vn] Source code game lines 2008\Lines2008\obj\Debug\Lines2008.pdb
+D:\Storage\Github\CSF\Проги\Разное\[Sharecode.vn] Source code game lines 2008\Lines2008\bin\Debug\Lines2008.exe
+D:\Storage\Github\CSF\Проги\Разное\[Sharecode.vn] Source code game lines 2008\Lines2008\bin\Debug\Lines2008.pdb
+D:\Storage\Github\CSF\Проги\Разное\[Sharecode.vn] Source code game lines 2008\Lines2008\obj\Debug\Lines2008.AboutMe.resources
+D:\Storage\Github\CSF\Проги\Разное\[Sharecode.vn] Source code game lines 2008\Lines2008\obj\Debug\Lines2008.HighScoresForm.resources
+D:\Storage\Github\CSF\Проги\Разное\[Sharecode.vn] Source code game lines 2008\Lines2008\obj\Debug\Lines2008.HowToPlay.resources
+D:\Storage\Github\CSF\Проги\Разное\[Sharecode.vn] Source code game lines 2008\Lines2008\obj\Debug\Lines2008.MainForm.resources
+D:\Storage\Github\CSF\Проги\Разное\[Sharecode.vn] Source code game lines 2008\Lines2008\obj\Debug\Lines2008.Properties.Resources.resources
+D:\Storage\Github\CSF\Проги\Разное\[Sharecode.vn] Source code game lines 2008\Lines2008\obj\Debug\Lines2008.WhatsYourName.resources
+D:\Storage\Github\CSF\Проги\Разное\[Sharecode.vn] Source code game lines 2008\Lines2008\obj\Debug\Lines2008.csproj.GenerateResource.Cache

@@ -1,0 +1,176 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Lessons>
+  <ValidLess>545k#cOFj$qM2LbnEY</ValidLess>
+  <Class num="Класс_1">
+    
+    <lesson id="Математика">
+      <text date="1.09">
+        счмимычвапымчирфыволфывлд
+      </text>
+      <text date="2.09">
+        фыволфasdaasdasddfgsd
+      </text>
+      <text date="5.09">
+        лд чсмчитсмывафыволфывлд
+      </text>
+    </lesson>
+    
+    <lesson id="Русский язык">
+      <text date="1.09">
+        прмспгпсмфыволфывлд
+      </text>
+      <text date="2.09">
+        фыволфasdaasdasddfgsd
+      </text>
+      <text date="5.09">
+        длжожэжбьюд8роплмьирбфыволфывлд
+      </text>
+    </lesson>
+
+    <lesson id="Литература">
+      <text date="3.09">
+        вапроплррпквелккаьвачплшоадпрфывоылвадж
+      </text>
+      <text date="7.09">
+       прэжорэво фыволфaывфодлжжэsdaasdasddfgsd
+      </text>
+      <text date="9.09">
+        пждэдлоэжп
+      </text>
+    </lesson>
+    
+    <lesson id="Рисование">
+      <text date="1.09">
+        л56вапфывоылваджфы
+      </text>
+      <text date="4.09">
+        756купр6нчвэжорэво фыволфaывфодлжжэsdaasdasddfgsd
+      </text>
+    </lesson>
+    
+    <lesson id="Физкультура">
+      <text date="3.09">
+        4рчпарлдонек65квпароафывоылвадж
+      </text>
+      <text date="7.09">
+        6578каапвы6ге7ноиапрэжорэво фыволфaывфодлжжэsdaasdasddfgsd
+      </text>
+      <text date="9.09">
+        праосачплаичаянгрпждэдлоэжп
+      </text>
+    </lesson>
+    
+  </Class>
+
+  <Class num="Класс_2">
+    <Mat>Математика</Mat>
+    <Rus>Русский язык</Rus>
+    <Lit>Литература</Lit>
+    <Izo>Рисование</Izo>
+    <Fiz>Физкультура</Fiz>
+  </Class>
+
+  <Class num="Класс_3">
+    <Mat>Математика</Mat>
+    <Rus>Русский язык</Rus>
+    <Lit>Литература</Lit>
+    <Izo>Рисование</Izo>
+    <Fiz>Физкультура</Fiz>
+  </Class>
+
+  <Class num="Класс_4">
+    <Mat>Математика</Mat>
+    <Rus>Русский язык</Rus>
+    <Lit>Литература</Lit>
+    <Izo>Рисование</Izo>
+    <Fiz>Физкультура</Fiz>
+  </Class>
+
+  <Class num="Класс_5">
+    <Mat>Математика</Mat>
+    <Rus>Русский язык</Rus>
+    <Lit>Литература</Lit>
+    <Izo>Рисование</Izo>
+    <Geo>География</Geo>
+    <Eng>Иностранный язык</Eng>
+    <His>История</His>
+    <Tru>Труд</Tru>
+    <Fiz>Физкультура</Fiz>
+  </Class>
+
+  <Class num="Класс_6">
+    <Mat>Математика</Mat>
+    <Rus>Русский язык</Rus>
+    <Lit>Литература</Lit>
+    <Geo>География</Geo>
+    <Eng>Иностранный язык</Eng>
+    <His>История</His>
+    <Tru>Труд</Tru>
+    <Fiz>Физкультура</Fiz>
+  </Class>
+
+  <Class num="Класс_7">
+    <Math>Математика</Math>
+    <Rus>Русский язык</Rus>
+    <Lit>Литература</Lit>
+    <Geo>География</Geo>
+    <Eng>Иностранный язык</Eng>
+    <His>История</His>
+    <Tru>Труд</Tru>
+    <Fiz>Физкультура</Fiz>
+  </Class>
+
+  <Class num="Класс_8">
+    <Mat>Математика</Mat>
+    <Rus>Русский язык</Rus>
+    <Lit>Литература</Lit>
+    <Geo>География</Geo>
+    <Eng>Иностранный язык</Eng>
+    <His>История</His>
+    <Tru>Труд</Tru>
+    <Che>Химия</Che>
+    <Phy>Физика</Phy>
+    <Fiz>Физкультура</Fiz>
+  </Class>
+
+  <Class num="Класс_9">
+    <Mat>Математика</Mat>
+    <Rus>Русский язык</Rus>
+    <Lit>Литература</Lit>
+    <Geo>География</Geo>
+    <Eng>Иностранный язык</Eng>
+    <His>История</His>
+    <Tru>Труд</Tru>
+    <Che>Химия</Che>
+    <Phy>Физика</Phy>
+    <Fiz>Физкультура</Fiz>
+  </Class>
+
+  <Class num="Класс_10">
+    <Mat>Математика</Mat>
+    <Rus>Русский язык</Rus>
+    <Lit>Литература</Lit>
+    <Geo>География</Geo>
+    <Eng>Иностранный язык</Eng>
+    <His>История</His>
+    <Obs>Обществознание</Obs>
+    <Che>Химия</Che>
+    <Phy>Физика</Phy>
+    <Fiz>Физкультура</Fiz>
+    <Inf>Информатика</Inf>
+  </Class>
+
+  <Class num="Класс_11">
+    <Mat>Математика</Mat>
+    <Rus>Русский язык</Rus>
+    <Lit>Литература</Lit>
+    <Geo>География</Geo>
+    <Eng>Иностранный язык</Eng>
+    <His>История</His>
+    <Obs>Обществознание</Obs>
+    <Che>Химия</Che>
+    <Phy>Физика</Phy>
+    <Inf>Информатика</Inf>
+    <Fiz>Физкультура</Fiz>
+  </Class>
+</Lessons>

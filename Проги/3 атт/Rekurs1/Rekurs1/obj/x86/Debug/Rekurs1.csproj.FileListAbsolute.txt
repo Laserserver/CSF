@@ -1,0 +1,30 @@
+C:\Users\Maxx\AppData\Local\Temporary Projects\Rekurs1\bin\Debug\Rekurs1.exe
+C:\Users\Maxx\AppData\Local\Temporary Projects\Rekurs1\bin\Debug\Rekurs1.pdb
+C:\Users\Maxx\AppData\Local\Temporary Projects\Rekurs1\obj\x86\Debug\Rekurs1.Rekur.resources
+C:\Users\Maxx\AppData\Local\Temporary Projects\Rekurs1\obj\x86\Debug\Rekurs1.Properties.Resources.resources
+C:\Users\Maxx\AppData\Local\Temporary Projects\Rekurs1\obj\x86\Debug\Rekurs1.csproj.GenerateResource.Cache
+C:\Users\Maxx\AppData\Local\Temporary Projects\Rekurs1\obj\x86\Debug\Rekurs1.exe
+C:\Users\Maxx\AppData\Local\Temporary Projects\Rekurs1\obj\x86\Debug\Rekurs1.pdb
+D:\Storage\Github\CSF\Проги\Rekurs1\Rekurs1\obj\x86\Debug\Rekurs1.exe
+D:\Storage\Github\CSF\Проги\Rekurs1\Rekurs1\obj\x86\Debug\Rekurs1.pdb
+D:\Storage\Github\CSF\Проги\Rekurs1\Rekurs1\bin\Debug\Rekurs1.exe
+D:\Storage\Github\CSF\Проги\Rekurs1\Rekurs1\bin\Debug\Rekurs1.pdb
+D:\Storage\Github\CSF\Проги\Rekurs1\Rekurs1\obj\x86\Debug\Rekurs1.Rekur.resources
+D:\Storage\Github\CSF\Проги\Rekurs1\Rekurs1\obj\x86\Debug\Rekurs1.Properties.Resources.resources
+D:\Storage\Github\CSF\Проги\Rekurs1\Rekurs1\obj\x86\Debug\Rekurs1.csproj.GenerateResource.Cache
+D:\Storage\Github\CSF\Проги\3 атт\Rekurs1\Rekurs1\obj\x86\Debug\Rekurs1.exe
+D:\Storage\Github\CSF\Проги\3 атт\Rekurs1\Rekurs1\obj\x86\Debug\Rekurs1.pdb
+D:\Storage\Github\CSF\Проги\3 атт\Rekurs1\Rekurs1\bin\Debug\Rekurs1.exe
+D:\Storage\Github\CSF\Проги\3 атт\Rekurs1\Rekurs1\bin\Debug\Rekurs1.pdb
+D:\Storage\Github\CSF\Проги\3 атт\Rekurs1\Rekurs1\obj\x86\Debug\Rekurs1.Rekur.resources
+D:\Storage\Github\CSF\Проги\3 атт\Rekurs1\Rekurs1\obj\x86\Debug\Rekurs1.Properties.Resources.resources
+D:\Storage\Github\CSF\Проги\3 атт\Rekurs1\Rekurs1\obj\x86\Debug\Rekurs1.csproj.GenerateResource.Cache
+Z:\3 fnn\Rekurs1\Rekurs1\obj\x86\Debug\Rekurs1.exe
+Z:\3 fnn\Rekurs1\Rekurs1\obj\x86\Debug\Rekurs1.pdb
+Z:\3 fnn\Rekurs1\Rekurs1\bin\Debug\Rekurs1.exe
+Z:\3 fnn\Rekurs1\Rekurs1\bin\Debug\Rekurs1.pdb
+Z:\3 fnn\Rekurs1\Rekurs1\obj\x86\Debug\ResolveAssemblyReference.cache
+Z:\3 fnn\Rekurs1\Rekurs1\obj\x86\Debug\Rekurs1.Rekur.resources
+Z:\3 fnn\Rekurs1\Rekurs1\obj\x86\Debug\Rekurs1.Properties.Resources.resources
+Z:\3 fnn\Rekurs1\Rekurs1\obj\x86\Debug\GenerateResource.read.1.tlog
+Z:\3 fnn\Rekurs1\Rekurs1\obj\x86\Debug\GenerateResource.write.1.tlog

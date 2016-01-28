@@ -21,3 +21,5 @@ Z:\Программирование\Проги к ябучей 2 атт\Matrix17
 Z:\Программирование\Проги к ябучей 2 атт\Matrix17\Matrix17\obj\x86\Debug\Matrix17.Properties.Resources.resources
 Z:\Программирование\Проги к ябучей 2 атт\Matrix17\Matrix17\obj\x86\Debug\GenerateResource.read.1.tlog
 Z:\Программирование\Проги к ябучей 2 атт\Matrix17\Matrix17\obj\x86\Debug\GenerateResource.write.1.tlog
+D:\Storage\Github\CSF\Проги\2 атт\Matrix17\Matrix17\obj\x86\Debug\Matrix17.exe
+D:\Storage\Github\CSF\Проги\2 атт\Matrix17\Matrix17\obj\x86\Debug\Matrix17.pdb

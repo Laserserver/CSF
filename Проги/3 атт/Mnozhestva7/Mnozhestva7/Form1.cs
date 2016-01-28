@@ -6,6 +6,8 @@ namespace Mnozhestva7
 {
   public partial class Form1 : Form
   {
+   // public const HashSet<int> Not = new HashSet<int>();
+    const int ij = 0;
     Helper X1 = new Helper(2, 4, 6, 8, 10);
     Helper X2 = new Helper(1, 2, 3, 4, 5);
     Helper X3 = new Helper(2, 3, 5, 7, 8);

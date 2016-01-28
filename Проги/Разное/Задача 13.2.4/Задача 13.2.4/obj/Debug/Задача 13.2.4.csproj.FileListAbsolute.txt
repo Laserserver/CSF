@@ -1,0 +1,15 @@
+C:\Users\User\Desktop\Задача 13.2.4\Задача 13.2.4\bin\Debug\Задача 13.2.4.exe.config
+C:\Users\User\Desktop\Задача 13.2.4\Задача 13.2.4\bin\Debug\Задача 13.2.4.exe
+C:\Users\User\Desktop\Задача 13.2.4\Задача 13.2.4\bin\Debug\Задача 13.2.4.pdb
+C:\Users\User\Desktop\Задача 13.2.4\Задача 13.2.4\obj\Debug\Задача 13.2.4.csprojResolveAssemblyReference.cache
+C:\Users\User\Desktop\Задача 13.2.4\Задача 13.2.4\obj\Debug\Задача 13.2.4.exe
+C:\Users\User\Desktop\Задача 13.2.4\Задача 13.2.4\obj\Debug\Задача 13.2.4.pdb
+C:\Users\User\Desktop\НА ПРОГУ 21.12\Задача 13.2.4\Задача 13.2.4\bin\Debug\Задача 13.2.4.exe.config
+C:\Users\User\Desktop\НА ПРОГУ 21.12\Задача 13.2.4\Задача 13.2.4\obj\Debug\Задача 13.2.4.exe
+C:\Users\User\Desktop\НА ПРОГУ 21.12\Задача 13.2.4\Задача 13.2.4\obj\Debug\Задача 13.2.4.pdb
+C:\Users\User\Desktop\Colloquium №3\3 атт\Задача 13.2.4\Задача 13.2.4\bin\Debug\Задача 13.2.4.exe.config
+C:\Users\User\Desktop\Colloquium №3\3 атт\Задача 13.2.4\Задача 13.2.4\obj\Debug\Задача 13.2.4.exe
+C:\Users\User\Desktop\Colloquium №3\3 атт\Задача 13.2.4\Задача 13.2.4\obj\Debug\Задача 13.2.4.pdb
+D:\Storage\Github\CSF\Проги\Разное\Задача 13.2.4\Задача 13.2.4\bin\Debug\Задача 13.2.4.exe.config
+D:\Storage\Github\CSF\Проги\Разное\Задача 13.2.4\Задача 13.2.4\obj\Debug\Задача 13.2.4.exe
+D:\Storage\Github\CSF\Проги\Разное\Задача 13.2.4\Задача 13.2.4\obj\Debug\Задача 13.2.4.pdb

@@ -1,0 +1,27 @@
+C:\Users\Maxim\AppData\Local\Temporary Projects\JsonParse\bin\Debug\JsonParse.exe.config
+C:\Users\Maxim\AppData\Local\Temporary Projects\JsonParse\obj\Debug\JsonParse.csprojResolveAssemblyReference.cache
+C:\Users\Maxim\AppData\Local\Temporary Projects\JsonParse\obj\Debug\JsonParse.Properties.Resources.resources
+C:\Users\Maxim\AppData\Local\Temporary Projects\JsonParse\obj\Debug\JsonParse.csproj.GenerateResource.Cache
+C:\Users\Maxim\AppData\Local\Temporary Projects\JsonParse\obj\Debug\JsonParse.Form1.resources
+C:\Users\Maxim\AppData\Local\Temporary Projects\JsonParse\bin\Debug\JsonParse.exe
+C:\Users\Maxim\AppData\Local\Temporary Projects\JsonParse\bin\Debug\JsonParse.pdb
+C:\Users\Maxim\AppData\Local\Temporary Projects\JsonParse\obj\Debug\JsonParse.exe
+C:\Users\Maxim\AppData\Local\Temporary Projects\JsonParse\obj\Debug\JsonParse.pdb
+D:\Projects\JsonParse\bin\Debug\JsonParse.exe.config
+D:\Projects\JsonParse\obj\Debug\JsonParse.exe
+D:\Projects\JsonParse\obj\Debug\JsonParse.pdb
+D:\Projects\JsonParse\bin\Debug\JsonParse.exe
+D:\Projects\JsonParse\bin\Debug\JsonParse.pdb
+D:\Projects\JsonParse\obj\Debug\JsonParse.csprojResolveAssemblyReference.cache
+D:\Projects\JsonParse\obj\Debug\JsonParse.Form1.resources
+D:\Projects\JsonParse\obj\Debug\JsonParse.Properties.Resources.resources
+D:\Projects\JsonParse\obj\Debug\JsonParse.csproj.GenerateResource.Cache
+e:\CSharp\JsonParse\bin\Debug\JsonParse.exe.config
+e:\CSharp\JsonParse\obj\Debug\JsonParse.exe
+e:\CSharp\JsonParse\obj\Debug\JsonParse.pdb
+e:\CSharp\JsonParse\bin\Debug\JsonParse.exe
+e:\CSharp\JsonParse\bin\Debug\JsonParse.pdb
+e:\CSharp\JsonParse\obj\Debug\JsonParse.csprojResolveAssemblyReference.cache
+e:\CSharp\JsonParse\obj\Debug\JsonParse.Form1.resources
+e:\CSharp\JsonParse\obj\Debug\JsonParse.Properties.Resources.resources
+e:\CSharp\JsonParse\obj\Debug\JsonParse.csproj.GenerateResource.Cache

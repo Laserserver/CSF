@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Students>
+
+  <Stud1>
+    <name>Витек Мартынов</name>
+
+    <Matan>Матан</Matan>
+    <marksMatan>1 2 3 4 5 6 1 3 4 4 5</marksMatan>
+
+    <TFKP>ТФКП</TFKP>
+    <marksTFKP>1 2 3 4 5 6 1 3 4 4 5</marksTFKP>
+
+    <Proga>Программирование</Proga>
+    <marksProga>1 2 3 4 5 6 1 3 4 4 5</marksProga>
+
+    <History>История</History>
+    <marksHistory>1 2 3 4 5 6 1 3 4 4 5</marksHistory>
+
+    <Difur>Дифуры</Difur>
+    <marksDifur>1 2 3 4 5 6 1 3 4 4 5</marksDifur>
+
+  </Stud1>
+
+  <Stud2>
+    <name>Камаз Навозов</name>
+
+    <Matan>Матан</Matan>
+    <marksMatan>1 2 3 4 5 6 1 3 4 4 5</marksMatan>
+
+    <TFKP>ТФКП</TFKP>
+    <marksTFKP>1 2 3 4 5 6 1 3 4 4 5</marksTFKP>
+
+    <Proga>Программирование</Proga>
+    <marksProga>1 2 3 4 5 6 1 3 4 4 5</marksProga>
+
+    <History>История</History>
+    <marksHistory>1 2 3 4 5 6 1 3 4 4 5</marksHistory>
+
+    <Difur>Дифуры</Difur>
+    <marksDifur>1 2 3 4 5 6 1 3 4 4 5</marksDifur>
+
+  </Stud2>
+
+</Students>

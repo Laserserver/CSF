@@ -1,0 +1,41 @@
+C:\Users\Maxx\AppData\Local\Temporary Projects\ProjectRed\bin\Debug\ProjectRed.exe
+C:\Users\Maxx\AppData\Local\Temporary Projects\ProjectRed\bin\Debug\ProjectRed.pdb
+C:\Users\Maxx\AppData\Local\Temporary Projects\ProjectRed\obj\x86\Debug\ProjectRed.LegacyOfTheVoid.resources
+C:\Users\Maxx\AppData\Local\Temporary Projects\ProjectRed\obj\x86\Debug\ProjectRed.Properties.Resources.resources
+C:\Users\Maxx\AppData\Local\Temporary Projects\ProjectRed\obj\x86\Debug\LegacyOfTheVoid.csproj.GenerateResource.Cache
+C:\Users\Maxx\AppData\Local\Temporary Projects\ProjectRed\obj\x86\Debug\ProjectRed.exe
+C:\Users\Maxx\AppData\Local\Temporary Projects\ProjectRed\obj\x86\Debug\ProjectRed.pdb
+D:\Storage\Github\CSF\Проги\3 атт\LegacyOfTheVoid\LegacyOfTheVoid\bin\Debug\LegacyOfTheVoid.exe
+D:\Storage\Github\CSF\Проги\3 атт\LegacyOfTheVoid\LegacyOfTheVoid\bin\Debug\LegacyOfTheVoid.pdb
+D:\Storage\Github\CSF\Проги\3 атт\LegacyOfTheVoid\LegacyOfTheVoid\obj\x86\Debug\ProjectRed.LegacyOfTheVoid.resources
+D:\Storage\Github\CSF\Проги\3 атт\LegacyOfTheVoid\LegacyOfTheVoid\obj\x86\Debug\ProjectRed.Properties.Resources.resources
+D:\Storage\Github\CSF\Проги\3 атт\LegacyOfTheVoid\LegacyOfTheVoid\obj\x86\Debug\LegacyOfTheVoid.csproj.GenerateResource.Cache
+D:\Storage\Github\CSF\Проги\3 атт\LegacyOfTheVoid\LegacyOfTheVoid\obj\x86\Debug\LegacyOfTheVoid.exe
+D:\Storage\Github\CSF\Проги\3 атт\LegacyOfTheVoid\LegacyOfTheVoid\obj\x86\Debug\LegacyOfTheVoid.pdb
+Z:\LegacyOfTheVoid\LegacyOfTheVoid\obj\x86\Debug\LegacyOfTheVoid.exe
+Z:\LegacyOfTheVoid\LegacyOfTheVoid\obj\x86\Debug\LegacyOfTheVoid.pdb
+Z:\LegacyOfTheVoid\LegacyOfTheVoid\bin\Debug\LegacyOfTheVoid.exe
+Z:\LegacyOfTheVoid\LegacyOfTheVoid\bin\Debug\LegacyOfTheVoid.pdb
+Z:\LegacyOfTheVoid\LegacyOfTheVoid\obj\x86\Debug\ProjectRed.LegacyOfTheVoid.resources
+Z:\LegacyOfTheVoid\LegacyOfTheVoid\obj\x86\Debug\ProjectRed.Properties.Resources.resources
+Z:\LegacyOfTheVoid\LegacyOfTheVoid\obj\x86\Debug\ResolveAssemblyReference.cache
+Z:\LegacyOfTheVoid\LegacyOfTheVoid\obj\x86\Debug\GenerateResource.read.1.tlog
+Z:\LegacyOfTheVoid\LegacyOfTheVoid\obj\x86\Debug\GenerateResource.write.1.tlog
+F:\LegacyOfTheVoid v3\LegacyOfTheVoid\obj\x86\Debug\LegacyOfTheVoid.exe
+F:\LegacyOfTheVoid v3\LegacyOfTheVoid\obj\x86\Debug\LegacyOfTheVoid.pdb
+D:\Storage\Github\CSF\Проги\3 атт\LegacyOfTheVoid v3\LegacyOfTheVoid\obj\x86\Debug\LegacyOfTheVoid.exe
+D:\Storage\Github\CSF\Проги\3 атт\LegacyOfTheVoid v3\LegacyOfTheVoid\obj\x86\Debug\LegacyOfTheVoid.pdb
+D:\Storage\Github\CSF\Проги\3 атт\LegacyOfTheVoid v3\LegacyOfTheVoid\bin\Debug\LegacyOfTheVoid.exe
+D:\Storage\Github\CSF\Проги\3 атт\LegacyOfTheVoid v3\LegacyOfTheVoid\bin\Debug\LegacyOfTheVoid.pdb
+D:\Storage\Github\CSF\Проги\3 атт\LegacyOfTheVoid v3\LegacyOfTheVoid\obj\x86\Debug\ProjectRed.LegacyOfTheVoid.resources
+D:\Storage\Github\CSF\Проги\3 атт\LegacyOfTheVoid v3\LegacyOfTheVoid\obj\x86\Debug\ProjectRed.Properties.Resources.resources
+D:\Storage\Github\CSF\Проги\3 атт\LegacyOfTheVoid v3\LegacyOfTheVoid\obj\x86\Debug\LegacyOfTheVoid.csproj.GenerateResource.Cache
+D:\Storage\Github\CSF\Проги\3 атт\LegacyOfTheVoid v3\LegacyOfTheVoid\obj\x86\Debug\LegacyOfTheVoid.csprojResolveAssemblyReference.cache
+D:\Storage\Github\CSF\Проги\3 атт\LegacyOfTheVoid v4.5\LegacyOfTheVoid\obj\x86\Debug\LegacyOfTheVoid.exe
+D:\Storage\Github\CSF\Проги\3 атт\LegacyOfTheVoid v4.5\LegacyOfTheVoid\obj\x86\Debug\LegacyOfTheVoid.pdb
+D:\Storage\Github\CSF\Проги\3 атт\LegacyOfTheVoid v4.5\LegacyOfTheVoid\bin\Debug\LegacyOfTheVoid.exe
+D:\Storage\Github\CSF\Проги\3 атт\LegacyOfTheVoid v4.5\LegacyOfTheVoid\bin\Debug\LegacyOfTheVoid.pdb
+D:\Storage\Github\CSF\Проги\3 атт\LegacyOfTheVoid v4.5\LegacyOfTheVoid\obj\x86\Debug\LegacyOfTheVoid.csprojResolveAssemblyReference.cache
+D:\Storage\Github\CSF\Проги\3 атт\LegacyOfTheVoid v4.5\LegacyOfTheVoid\obj\x86\Debug\ProjectRed.LegacyOfTheVoid.resources
+D:\Storage\Github\CSF\Проги\3 атт\LegacyOfTheVoid v4.5\LegacyOfTheVoid\obj\x86\Debug\ProjectRed.Properties.Resources.resources
+D:\Storage\Github\CSF\Проги\3 атт\LegacyOfTheVoid v4.5\LegacyOfTheVoid\obj\x86\Debug\LegacyOfTheVoid.csproj.GenerateResource.Cache

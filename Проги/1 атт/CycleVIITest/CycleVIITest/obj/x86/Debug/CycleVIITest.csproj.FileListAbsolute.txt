@@ -1,9 +1,0 @@
-Z:\Программирование\Проги\CycleVIITest\CycleVIITest\bin\Debug\CycleVIITest.exe
-Z:\Программирование\Проги\CycleVIITest\CycleVIITest\bin\Debug\CycleVIITest.pdb
-Z:\Программирование\Проги\CycleVIITest\CycleVIITest\obj\x86\Debug\CycleVIITest.exe
-Z:\Программирование\Проги\CycleVIITest\CycleVIITest\obj\x86\Debug\CycleVIITest.pdb
-Z:\Программирование\Проги\CycleVIITest\CycleVIITest\obj\x86\Debug\ResolveAssemblyReference.cache
-F:\ВГУ\Программирование\Проги\CycleVIITest\CycleVIITest\obj\x86\Debug\CycleVIITest.exe
-F:\ВГУ\Программирование\Проги\CycleVIITest\CycleVIITest\obj\x86\Debug\CycleVIITest.pdb
-D:\Storage\Github\CSF\Проги\CycleVIITest\CycleVIITest\obj\x86\Debug\CycleVIITest.exe
-D:\Storage\Github\CSF\Проги\CycleVIITest\CycleVIITest\obj\x86\Debug\CycleVIITest.pdb

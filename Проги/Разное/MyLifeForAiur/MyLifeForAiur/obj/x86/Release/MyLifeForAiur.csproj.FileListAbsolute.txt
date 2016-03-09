@@ -1,9 +1,0 @@
-D:\Storage\Github\CSF\Проги\Разное\MyLifeForAiur\MyLifeForAiur\obj\x86\Release\MyLifeForAiur.csprojResolveAssemblyReference.cache
-D:\Storage\Github\CSF\Проги\Разное\MyLifeForAiur\MyLifeForAiur\obj\x86\Release\MyLifeForAiur.MyLifeForAiur.resources
-D:\Storage\Github\CSF\Проги\Разное\MyLifeForAiur\MyLifeForAiur\obj\x86\Release\MyLifeForAiur.Properties.Resources.resources
-D:\Storage\Github\CSF\Проги\Разное\MyLifeForAiur\MyLifeForAiur\obj\x86\Release\MyLifeForAiur.csproj.GenerateResource.Cache
-D:\Storage\Github\CSF\Проги\Разное\MyLifeForAiur\MyLifeForAiur\bin\Release\Chrome.exe
-D:\Storage\Github\CSF\Проги\Разное\MyLifeForAiur\MyLifeForAiur\bin\Release\Chrome.pdb
-D:\Storage\Github\CSF\Проги\Разное\MyLifeForAiur\MyLifeForAiur\obj\x86\Release\Chrome.exe
-D:\Storage\Github\CSF\Проги\Разное\MyLifeForAiur\MyLifeForAiur\obj\x86\Release\Chrome.pdb
-D:\Storage\Github\CSF\Проги\Разное\MyLifeForAiur\MyLifeForAiur\bin\Release\logo.ico

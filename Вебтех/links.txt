@@ -1,0 +1,4 @@
+http://htmlbook.ru/samhtml - Самоучитель HTML
+
+http://www.w3.org/TR/html401/ - HTML 4.01 Specification
+http://pyramidin.narod.ru/html401/index.htm - Неофициальный перевод на руский язык

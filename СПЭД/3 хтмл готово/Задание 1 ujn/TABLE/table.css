@@ -1,0 +1,51 @@
+table
+{
+	margin-top: 10px;
+}
+table.sport tr
+{
+	padding: 2px 5px;
+}
+table.sport td
+{
+	text-align: center;
+}
+table.sport td.left
+{
+	text-align: left;	
+}
+table.sport th.left
+{
+	text-align: left;	
+}
+
+
+table.Herbs th.header
+{
+	background: url("images/back.jpg");
+	font-family: sans-serif;
+	text-align: center;
+	color: white;
+	font-weight: bold;
+}
+table.Herbs td.picture
+{
+	text-align: center;
+	background: url("images/paper.jpg");
+	padding: 10px;
+	width: 120px;
+}
+table.Herbs tr.note
+{
+	color: #800000;
+	font-family: sans-serif;
+	text-align: center;
+	padding: 5px 10px;
+}
+
+table.Cesar td.ad
+{
+	border:1px solid #CCCCCC;
+	background: rgb(230, 230, 255);
+	text-align: center;
+}

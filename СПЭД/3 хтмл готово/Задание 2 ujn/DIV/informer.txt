@@ -1,0 +1,2 @@
+<script type="text/javascript" src="http://pogoda.mail.ru/informer/weather.js?city=625&view=2&encoding=utf-8"></script>
+<script type="text/javascript" src="http://pogoda.mail.ru/informer/weather.js?city=6153&view=2&encoding=utf-8"></script>

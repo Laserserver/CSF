@@ -1,0 +1,106 @@
+div#container {
+	border: 1px solid black;
+	border-collapse: collapse;
+	background:#F5F5F5;
+	margin: auto;
+    width: 613px;
+    height: 839px;
+}
+ 
+div#photo{
+	margin-top: 46px;
+	margin-left: 34px;
+	text-align: center;
+	height: 210px;
+	width: 165px;
+	float: left;
+	background: url("images/goodguy.jpg") no-repeat;
+}
+ h2.text
+ {
+	border: 1px solid black;
+	border-collapse: collapse;
+	color: gray;
+	font-family: Tahoma, sans-serif;
+	font-size: 8px;
+	width: 355px;
+	height: 154px;
+	text-align: right;
+ }
+ h2.head
+{
+	text-align: center;
+}
+div#header {
+    width: 343px;
+    height: 210px;
+	margin-left: 176px;
+	margin-top: 53px;
+}
+ 
+div#maintext {
+	font-weight: normal;
+	border: 1px solid black;
+	border-collapse: collapse;
+	font-family: Times;
+	font-size: 12px;
+    width: 544px;
+    height: 153px;
+}
+ li.bol
+ {
+	font-weight: bold;
+ }
+ li.ital
+ {
+	font-style: italic;
+ }
+div#table {
+	
+			margin-top: 8px;
+            width: 544px;
+            height: 144px;
+}
+table.tabl 
+{	
+	border: 1px solid black;
+	border-collapse: collapse;
+	width: 544px;
+	height: 144px;
+}
+table.tabl th
+{
+	background: #FFAAFF;
+	border: 2px solid black;	
+	border-collapse: collapse;
+}
+table.tabl td
+{	
+	border-collapse: collapse;
+	border: 1px solid black;
+}
+div#name{
+	margin-top: 15px;
+	height: 60px;
+	width: 544px;
+	text-align: left;
+	font-family: Times;
+	font-size: 36px;
+	font-style: bold;
+}
+div#comment{
+	height: 100px;
+	width: 544px;
+}
+ 
+div#baton {
+	margin-top: 15px;
+	height: 44px;
+	width: 544px;     
+}
+button
+{
+	border: 1px solid black;
+	width: 139px;
+	height: 39px;
+}

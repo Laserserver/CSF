@@ -1,0 +1,22 @@
+body
+{
+	color: black;
+	background: orange;
+}
+.formula
+{
+	text-align: center;
+	font-style: italic;
+	font-weight: bold;
+}
+p.definition
+{
+	border: 1px solid black;
+	padding: 9px;
+}
+h2
+{
+	color: red;
+	background: black;
+	padding: 5px;
+}

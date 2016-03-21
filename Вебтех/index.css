@@ -1,0 +1,36 @@
+
+table {
+	border-collapse: collapse;
+	background: #F5F5F5;
+	border: 1px solid black;
+	padding: 5px; 
+}
+table.inner 
+{
+	border-collapse: collapse;
+	border: 0px solid black;
+	margin: 30px 10px 10px 30px;
+}
+td.photo
+{
+background: #DCDCDC;
+border-collapse: collapse;
+	border: 1px solid black;
+}
+th.innertext
+{
+	border-collapse: collapse;
+	border: 1px solid black;
+}
+tr.head td
+{
+	border-collapse: collapse;
+	border: 2px solid black;
+	background: #B8860B;
+}
+tr.data td
+{
+	border-collapse: collapse;
+	border: 1px solid black;
+	background: #F5F5F5;
+}

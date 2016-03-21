@@ -1,0 +1,15 @@
+body
+{
+	color: white;
+	background: url(images/back.jpg) repeat;
+}
+span.name
+{
+	font-weight: bold;
+	color: orange;
+	font-style: italic;
+}
+img
+{
+	margin: 10px 10px 10px 10px;
+}

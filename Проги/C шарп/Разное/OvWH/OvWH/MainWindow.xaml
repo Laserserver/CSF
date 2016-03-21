@@ -1,0 +1,94 @@
+﻿<Window x:Class="OvWH.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:OvWH"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="747.412" Width="1285.629">
+  <Grid Margin="0,0,-171,-93" RenderTransformOrigin="0.5,0.5" HorizontalAlignment="Left" Width="1449">
+    <Grid.RenderTransform>
+      <TransformGroup>
+        <ScaleTransform/>
+        <SkewTransform/>
+        <RotateTransform Angle="-0.084"/>
+        <TranslateTransform/>
+      </TransformGroup>
+    </Grid.RenderTransform>
+    <Button x:Name="_ctrlBaton" Content="Button" HorizontalAlignment="Left" Margin="410,10,0,0" VerticalAlignment="Top" Width="75" Click="button_Click"/>
+    <ListBox x:Name="_ctrlListUnsort" HorizontalAlignment="Left" Height="326" Margin="526,81,0,0" VerticalAlignment="Top" Width="69" RenderTransformOrigin="0.5,0.5">
+      <ListBox.RenderTransform>
+        <TransformGroup>
+          <ScaleTransform/>
+          <SkewTransform AngleY="34.01"/>
+          <RotateTransform Angle="-35.162"/>
+          <TranslateTransform X="-1.131" Y="36.757"/>
+        </TransformGroup>
+      </ListBox.RenderTransform>
+    </ListBox>
+    <ListBox x:Name="_ctrlListSort" HorizontalAlignment="Left" Height="365" Margin="182,5,0,0" VerticalAlignment="Top" Width="109" RenderTransformOrigin="0.5,0.5">
+      <ListBox.RenderTransform>
+        <TransformGroup>
+          <ScaleTransform/>
+          <SkewTransform AngleX="-46.855"/>
+          <RotateTransform Angle="91.219"/>
+          <TranslateTransform X="-4.142" Y="194.672"/>
+        </TransformGroup>
+      </ListBox.RenderTransform>
+    </ListBox>
+    <TextBox x:Name="_ctrlTxb" HorizontalAlignment="Left" Height="23" Margin="365,37,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
+    <ListBox x:Name="_ctrlListIn" HorizontalAlignment="Left" Height="783" Margin="127,-348,0,0" VerticalAlignment="Top" Width="52" RenderTransformOrigin="0.56,0.575">
+      <ListBox.RenderTransform>
+        <TransformGroup>
+          <ScaleTransform ScaleY="0.217"/>
+          <SkewTransform AngleY="-61.375" AngleX="63.063"/>
+          <RotateTransform Angle="120.572"/>
+          <TranslateTransform X="59.207" Y="272.224"/>
+        </TransformGroup>
+      </ListBox.RenderTransform>
+    </ListBox>
+    <Label x:Name="_ctrlLblUnsort" Content="Несортированный" HorizontalAlignment="Left" Margin="555,151,0,0" VerticalAlignment="Top" Height="28" Width="127" RenderTransformOrigin="0.5,0.5">
+      <Label.RenderTransform>
+        <TransformGroup>
+          <ScaleTransform/>
+          <SkewTransform/>
+          <RotateTransform Angle="-3.285"/>
+          <TranslateTransform/>
+        </TransformGroup>
+      </Label.RenderTransform>
+    </Label>
+    <Label x:Name="label" Content="Сортированный" HorizontalAlignment="Left" Margin="82,81,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5">
+      <Label.RenderTransform>
+        <TransformGroup>
+          <ScaleTransform/>
+          <SkewTransform/>
+          <RotateTransform Angle="0.153"/>
+          <TranslateTransform/>
+        </TransformGroup>
+      </Label.RenderTransform>
+    </Label>
+    <ListBox x:Name="listBox" HorizontalAlignment="Left" Height="69" Margin="513,297,0,0" VerticalAlignment="Top" Width="333" RenderTransformOrigin="0.5,0.5">
+      <ListBox.RenderTransform>
+        <TransformGroup>
+          <ScaleTransform/>
+          <SkewTransform AngleY="49.28"/>
+          <RotateTransform Angle="77.009"/>
+          <TranslateTransform Y="58.056" X="1.466"/>
+        </TransformGroup>
+      </ListBox.RenderTransform>
+    </ListBox>
+    <ListBox x:Name="listBox1" HorizontalAlignment="Left" Height="450" Margin="910,181,0,0" VerticalAlignment="Top" Width="79"/>
+    <ListBox x:Name="listBox1_Copy" HorizontalAlignment="Left" Height="450" Margin="1179,181,0,0" VerticalAlignment="Top" Width="79"/>
+    <ListBox x:Name="listBox1_Copy1" HorizontalAlignment="Left" Height="319" Margin="1044,185,0,0" VerticalAlignment="Top" Width="79" RenderTransformOrigin="0.5,0.5">
+      <ListBox.RenderTransform>
+        <TransformGroup>
+          <ScaleTransform/>
+          <SkewTransform AngleY="54.272"/>
+          <RotateTransform Angle="36.265"/>
+          <TranslateTransform X="0.437" Y="54.912"/>
+        </TransformGroup>
+      </ListBox.RenderTransform>
+    </ListBox>
+    <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="57" Margin="1032,99,0,0" Stroke="Black" VerticalAlignment="Top" Width="122"/>
+  </Grid>
+</Window>

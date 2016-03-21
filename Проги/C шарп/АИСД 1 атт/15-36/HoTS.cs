@@ -1,17 +1,10 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.IO;
 
 namespace _15_36
 {
-    public partial class HoTS : Form
+  public partial class HoTS : Form
     {
         OpenFileDialog OFD = new OpenFileDialog();
         int[] Numbers;

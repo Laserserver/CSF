@@ -53,9 +53,9 @@
       // 
       // _ctrlLbl
       // 
-      this._ctrlLbl.Location = new System.Drawing.Point(12, 73);
+      this._ctrlLbl.Location = new System.Drawing.Point(93, 14);
       this._ctrlLbl.Name = "_ctrlLbl";
-      this._ctrlLbl.Size = new System.Drawing.Size(242, 21);
+      this._ctrlLbl.Size = new System.Drawing.Size(158, 21);
       this._ctrlLbl.TabIndex = 2;
       this._ctrlLbl.Text = "Ответ: ";
       // 
@@ -63,7 +63,7 @@
       // 
       this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
       this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-      this.ClientSize = new System.Drawing.Size(260, 102);
+      this.ClientSize = new System.Drawing.Size(260, 80);
       this.Controls.Add(this._ctrlLbl);
       this.Controls.Add(this._ctrlBaton);
       this.Controls.Add(this._ctrlTxB);

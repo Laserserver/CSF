@@ -1,0 +1,42 @@
+body
+{
+	background: #FFEEEE;
+	font-family: Georgia, serif;
+}
+h1
+{
+	background-image: url(images/cat.png); 
+	background-repeat: no-repeat;
+	padding-left: 130px;
+	padding-top: 35px;
+	padding-bottom: 35px;
+	font-family: Arial, sans-serif;
+}
+h2
+{
+	color: #800000;
+	font-family: Arial, sans-serif;
+}
+span.latin
+{
+	color: #800000;
+	font-style: italic;
+}
+p
+{
+	text-indent: 30px;
+}
+p.author
+{
+	text-indent: 0px;
+	font-style: italic;
+}
+p.quote
+{
+	background: #FEFEE2;
+	text-indent: 0px;
+	width: 50%;
+	margin: 0 30px 10px 30px;
+	border: 1px dotted black;
+	padding: 10px;
+}

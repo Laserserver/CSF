@@ -1,0 +1,41 @@
+* 
+{
+margin:0px;
+padding:0px;
+}
+div#header
+{
+	height: 80px;
+	background: url("images/header.jpg") no-repeat;
+	padding-left: 200px;
+	padding-top: 16px;
+}
+div#photo
+{
+	text-align: right;
+	width: 220px;
+	padding-left: 10px;
+	float: right;
+}
+div#pogoda
+{
+	width: 150px;
+	padding-left: 10px;
+	float: left;
+}
+div#content
+{
+	padding-left: 150px;
+	padding-right: 220px;
+}
+div#footer
+{
+	background-color: #CCCCCC;
+	margin-top: 5px;
+	margin-bottom: 10px;
+	clear: both;
+}
+p 
+{
+	text-indent: 20px;
+}

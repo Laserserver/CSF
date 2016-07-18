@@ -1,0 +1,30 @@
+.cd
+{
+color: grey;
+font-size: 8pt;
+font-family: Tahoma;
+}
+p
+{
+color:black;
+font-size:12pt;
+font-family: Times New Roman;
+text-indent: 20px; 
+}
+.surname{
+font-size: 16pt;
+padding-left: 150px;
+padding-top: 20px;
+}
+.tab
+{
+padding-right: 800px;
+}
+th
+{
+background:violet;
+}
+.b1
+{
+background-color: violet;
+}

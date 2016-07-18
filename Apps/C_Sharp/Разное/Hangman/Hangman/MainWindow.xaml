@@ -1,0 +1,91 @@
+﻿<Window x:Class="Hangman.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Hangman"
+        mc:Ignorable="d"
+        Title="Виселица" Height="350" Width="525">
+  <Grid Background="#FFF7E7DB">
+    <Label x:Name="ctrlLbl" Content="" HorizontalAlignment="Left" Margin="122,24,0,0" VerticalAlignment="Top" Height="29" Width="363"/>
+    <TextBox x:Name="ctrlTxb" HorizontalAlignment="Left" Height="23" Margin="365,113,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="129"/>
+    <Canvas x:Name="ctrlCanvas" HorizontalAlignment="Left" Height="221" Margin="10,89,0,0" VerticalAlignment="Top" Width="282" Background="#FFEFF5F7">
+      <Line
+    X1="10" Y1="10"
+    X2="10" Y2="200"
+    Stroke="Black"
+    StrokeThickness="5" Canvas.Left="218" Canvas.Top="10" Height="201" />
+      <Line
+    X1="10" Y1="10"
+    X2="10" Y2="37"
+    Stroke="Black"
+    StrokeThickness="4" Canvas.Left="132" Canvas.Top="22" Height="58" Width="25" />
+      <Line
+     X1="10" Y1="10"
+     X2="150" Y2="10"
+     Stroke="Black"
+     StrokeThickness="5" Canvas.Left="123" Canvas.Top="22" Height="20" Width="149"/>
+      <Line
+      	X1="10" Y1="10"
+      	X2="80" Y2="10"
+      	Stroke="Black"
+      	StrokeThickness="5" Canvas.Left="187" Canvas.Top="166" Height="12" Width="149" RenderTransformOrigin="0.487,8.071">
+        <Line.RenderTransform>
+          <TransformGroup>
+            <ScaleTransform/>
+            <SkewTransform/>
+            <RotateTransform Angle="-24.457"/>
+            <TranslateTransform/>
+          </TransformGroup>
+        </Line.RenderTransform>
+      </Line>
+      <Line
+      	X1="10" Y1="10"
+      	X2="80" Y2="10"
+      	Stroke="Black"
+      	StrokeThickness="6" Canvas.Left="154" Canvas.Top="200" Height="12" Width="149" RenderTransformOrigin="0.487,8.071">
+        <Line.RenderTransform>
+          <TransformGroup>
+            <ScaleTransform/>
+            <SkewTransform/>
+            <RotateTransform Angle="-0.212"/>
+            <TranslateTransform/>
+          </TransformGroup>
+        </Line.RenderTransform>
+      </Line>
+      <Rectangle x:Name="_Body" Height="67" Canvas.Left="122" Stroke="#FF593D30" StrokeThickness="2" Canvas.Top="63" Width="34" Fill="#FF76584A" RenderTransformOrigin="0.504,-0.005"/>
+      <Ellipse x:Name="_Head" Height="30" Canvas.Left="110" Stroke="#FF593D30" StrokeThickness="2" Canvas.Top="42" Width="34" Fill="#FF76584A"/>
+      <Rectangle x:Name="_Leg_r" Height="52" Canvas.Left="141" Fill="#FF76584A" Stroke="#FF593D30" StrokeThickness="2" Canvas.Top="128" Width="15"/>
+      <Rectangle x:Name="_Leg_l" Height="52" Canvas.Left="122" Stroke="#FF593D30" StrokeThickness="2" Canvas.Top="128" Width="15" Fill="#FF76584A"/>
+      <Rectangle x:Name="_Hand_r" Height="48" Canvas.Left="155" Stroke="#FF593D30" StrokeThickness="2" Canvas.Top="73" Width="12" Fill="#FF76584A" RenderTransformOrigin="0.653,-0.159"/>
+      <Rectangle x:Name="_Hand_l" Height="48" Canvas.Left="111" Stroke="#FF593D30" StrokeThickness="2" Canvas.Top="73" Width="12" Fill="#FF76584A" RenderTransformOrigin="0.512,-0.163"/>
+      <Ellipse x:Name="_HeadMouth" Fill="#FF8B2323" Height="6" Canvas.Left="123" Stroke="#FFE65252" StrokeThickness="5" Canvas.Top="60" Width="9"/>
+      <Line x:Name="_HeadEy4"
+      	X1="0" Y1="5"
+      	X2="5" Y2="0"
+      	Stroke="Black"
+      	StrokeThickness="2" Canvas.Left="132" Canvas.Top="49" Height="6" Width="5" />
+      <Line x:Name="_HeadEy3"
+      	X1="0" Y1="5"
+      	X2="5" Y2="0"
+      	Stroke="Black"
+      	StrokeThickness="2" Canvas.Left="118" Canvas.Top="49" Height="6" Width="5" />
+      <Line x:Name="_HeadEy1"
+      	X1="0" Y1="0"
+      	X2="5" Y2="5"
+      	Stroke="Black"
+      	StrokeThickness="2" Canvas.Left="132" Canvas.Top="49" Height="6" Width="5" />
+      <Line x:Name="_HeadEy2"
+      	X1="0" Y1="0"
+      	X2="5" Y2="5"
+      	Stroke="Black"
+      	StrokeThickness="2" Canvas.Left="118" Canvas.Top="49" Height="6" Width="5" />
+    </Canvas>
+    <Button x:Name="ctrlBaton" Content="Проверить букву" HorizontalAlignment="Left" Margin="365,168,0,0" VerticalAlignment="Top" Width="120" Height="28" Click="ctrlBaton_Click"/>
+    <Button x:Name="_ctrlBatLoad" Content="Загрузить" HorizontalAlignment="Left" Margin="405,8,0,0" VerticalAlignment="Top" Width="47" RenderTransformOrigin="1.197,0.242" Height="16" FontSize="8" Click="_ctrlBatLoad_Click"/>
+    <Button x:Name="_ctrlBatReset" Content="Рандом" HorizontalAlignment="Left" Margin="460,8,0,0" VerticalAlignment="Top" Width="47" RenderTransformOrigin="1.197,0.242" Height="16" FontSize="8" Click="_ctrlBatReset_Click" />
+    <Label x:Name="_ctrlLblHelpL" Content="Введите букву сюдой:" HorizontalAlignment="Left" Margin="365,82,0,0" VerticalAlignment="Top" Width="129"/>
+    <Label x:Name="_ctrlLblHelpW" Content="Слово:" HorizontalAlignment="Left" Margin="28,24,0,0" VerticalAlignment="Top"/>
+
+  </Grid>
+</Window>

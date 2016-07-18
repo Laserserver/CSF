@@ -1,0 +1,19 @@
+﻿<html>
+	<input type = "text" id = "a1" /> 
+		<br/>
+	<button onclick="my()"> Проверить </button>
+		<br/>
+	<input type = "text" id = "a2" /> 
+		<br/>
+		<script>
+		function my(){
+		var c = new RegExp("^(.){1,}@\\w{1,}(\\.\\w{1,}){0,3}\\.\\w{2,3}$", "i");
+		if (c.test(document.getElementById("a1").value)){
+		document.getElementById("a2").value = "Подходит";
+		}		
+		else{
+		document.getElementById("a2").value = "Не подходит";
+		}
+		}
+		</script>
+</html>

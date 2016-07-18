@@ -1,0 +1,22 @@
+<html>
+			<input type = "text" id = "a1" /> 
+			<br/>
+			<input type = "text" id = "b1" /> 
+			<br/>
+			<input type = "text" id = "c1" /> 
+			<br/>
+			<button onclick="sq()"> Calc </button>
+			<br/>
+			<input type = "text" id = "s1" />
+			
+			<script>
+			function sq(){
+				var a = document.getElementById("a1").value;
+				var b = document.getElementById("b1").value;
+				var c = document.getElementById("c1").value;
+				var p = (a * 1 + b * 1 + c * 1)/2;
+				var j = Math.sqrt(p*(p-a)*(p-b)*(p-c));
+				document.getElementById("s1").value = j;
+			}
+			</script>
+</html>

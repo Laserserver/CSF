@@ -1,0 +1,14 @@
+﻿<html>
+	<input type = "text" id = "a1" /> 
+		<br/>
+	<button onclick="my()"> Проверить </button>
+		<br/>
+	<input type = "text" id = "a2" /> 
+		<br/>
+		<script>
+			function my(){
+				var c = new RegExp("^([\\w\\d_\\-\\.]){1,}@[\\w\\d_\\-]{1,}(\\.[\\w\\d_\\-]{1,}){0,}\\.\\w{2,6}$", "i");
+					document.getElementById("a2").value = c.test(document.getElementById("a1").value) ? "Подходит" : "Не подходит";
+			}
+		</script>
+</html>

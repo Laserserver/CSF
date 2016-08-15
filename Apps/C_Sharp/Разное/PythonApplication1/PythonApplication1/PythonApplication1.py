@@ -1,3 +1,6 @@
+# -*- coding: utf-8 -*-
+# vim:fileencoding=utf-8
+import math
 """
 a = 'random Text';
 print(a.capitalize());
@@ -65,9 +68,57 @@ n = 'Text random'
 x = tuple(n)
 print(x)
 """
+'''
 a = ['name1', 'name2', 'name3', 'name4']
 b = ['surname1','surname2','surname3','surname4']
 i = 0
 for value in a:
     print(a[i], b[i], sep=' ')
     i+=1
+'''
+'''
+Калькулятор
+def arythmetic(left, right, sign):
+    if (sign == '+'):
+        return left + right
+    elif (sign == '-'):
+        return left - right
+    elif (sign == '*'):
+        return left * right
+    elif (sign == '/'):
+        if (right != 0):
+            return left / right    
+        else:
+            print('DivideByZeroException')
+    else:
+        print('InvalidOperationException')
+try:
+    left = complex(input('Left: '))
+    sign = input('Sign: ')
+    right = complex(input('Right: '))
+    print(arythmetic(left, right, sign))
+except ValueError:
+    print('No string allowed')
+'''
+'''
+Высоты треугольника
+try:
+    a = int(input('A = '))
+    b = int(input('B = '))
+    c = int(input('C = '))
+    p = (a + b + c) * 0.5
+    psq = 2 * (p * (p - a) * (p - b) * (p - c)) ** 0.5
+    ha = psq / a
+    hb = psq / b
+    hc = psq / c 
+    print('Ha = {}, Hb = {}, Hc = {}'.format(ha,hb,hc))
+except ValueError:
+    print('Error')
+'''
+'''
+try:
+    a = int(input('Number: '))
+    print(a & 1 == 0 and a > 0 and a < 100)
+except ValueError:
+    print('error')
+'''

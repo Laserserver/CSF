@@ -1,5 +1,4 @@
-# -*- coding: utf-8 -*-
-# vim:fileencoding=utf-8
+
 import math
 """
 a = 'random Text';
@@ -122,3 +121,4 @@ try:
 except ValueError:
     print('error')
 '''
+#12

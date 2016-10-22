@@ -5,34 +5,38 @@ using System.Text;
 
 namespace Posled7
 {
-    class Program
+  class Program
+  {
+    static void Main(string[] args)
     {
-        static void Main(string[] args)
+      int Num = 0;
+      int.TryParse(Console.ReadLine(), out Num);
+      int i, j, k, n, o = 0, a, t;
+      if (Num == 0)
+        Console.WriteLine("Что-то пошло не так. Наверное, Вы первым элементом ввели 0.");
+      else
+      {
+        t = i = 0;
+        do
         {
-            /*7.	Вводится последовательность вещественных чисел, оканчивающаяся
-             * нулём, и состоящая более чем из одного ненулевого элемента. Определить,
-             * имеют ли первое и последнее числа последовательности один знак.*/
-            double First = 0, Second = 1;
-            short n = 0;
-            Console.WriteLine("Вас приветствует программа, определяющая тождественность знаков первого и\nпоследнего членов последовательности.");
-            Console.WriteLine("Введите числа по порядку. Чтобы закончить, введите 0.");
-            double.TryParse(Console.ReadLine(), out First);
-            if (First == 0)
-                Console.WriteLine("Что-то пошло не так. Наверное, Вы первым элементом ввели 0.");
-            else
-            {
-                while (Second != 0)
-                {
-                    Second = double.Parse(Console.ReadLine());
-                    n++;
-                }
-                if (n == 0)
-                    Console.WriteLine("Что-то пошло не так. Наверное, Вы ввели только один элемент.");
-                else
-                Console.WriteLine((Math.Sign(First) == Math.Sign(Second)) ? "Знаки одинаковы" : "Знаки не одинаковы");     
-            }
-            Console.WriteLine("Для выхода из программы нажмите Enter.");
-            Console.ReadLine();
+          t++;
+          j = t;
+          while (j > 0)
+          {
+            j /= 10;
+            i++;
+          }
         }
+        while (i >= Num);
+        while (i <= Num && i != 0)
+        {
+          o = t % 10;
+          t /= 10;
+          i--;
+        }
+      }
+      Console.WriteLine("K-я цифра. " + o);
+      Console.ReadLine();
     }
+  }
 }

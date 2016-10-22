@@ -169,7 +169,7 @@ namespace _16_21
     {
       Font font = new Font("Courier", 12);
       SizeF size;
-      Canvas.Clear(Color.White);
+      //Canvas.Clear(Color.White);
       string Data = null;
       for (int i = 0; i < 12; i++)
       {

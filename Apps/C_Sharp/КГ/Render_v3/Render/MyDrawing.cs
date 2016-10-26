@@ -11,10 +11,12 @@ namespace Render
 
   public static class MyDrawing
   {
+    public static int redOne = 200, greenOne = 102, blueOne = 70;
     private static Tuple<Structures.MyPoint[], Structures.MyPolygon[], Structures.MyEdge[]> _MainData;
     public static Graphics TempGraphics;
     public static Bitmap Canvas;
     private static bool _edgesOnly; //!!
+    public static SmoothingMode HD = SmoothingMode.Default;
     private static int  //!!
       windowWidth = 0,   //Ширина
       windowHeigth = 0;
@@ -27,7 +29,7 @@ namespace Render
       upperYViewingBoundary = -2,
       lowerYViewingBoundary = 2;
     public static bool hasNormalsVisible = false;
-    public static double alphaAngle = 0, betaAngle = 0;
+    public static double alphaAngle = Math.PI, betaAngle = 0;
     public static void SetMonitor(int X, int Y)
     {
       windowWidth = X;
@@ -39,7 +41,7 @@ namespace Render
     }
     public static void GetData(Tuple<Structures.MyPoint[], Structures.MyPolygon[], Structures.MyEdge[]> Data)
     {
-        _MainData = Data;
+      _MainData = Data;
     }
     public static void ChangeWindowXY(int u, int v, int Delta)
     {
@@ -86,16 +88,15 @@ namespace Render
       {
         MainUnitProcessor.Model.InvokeAlgorithms();
         g.Clear(Color.Black);
-        MatricesAndVectors.MatrixProjection Proj = new MatricesAndVectors.MatrixProjection(1);
         Point P0, P1;
-        P0 = Translate3DTo2D(new Structures.MyPoint(-3, 0, 0));
-        P1 = Translate3DTo2D(new Structures.MyPoint(3, 0, 0));
+        P0 = TR32/*Translate3DTo2D*/(new Structures.MyPoint(-3, 0, 0));
+        P1 = TR32/*Translate3DTo2D*/(new Structures.MyPoint(3, 0, 0));
         g.DrawLine(Pens.Red, P0, P1);
-        P0 = Translate3DTo2D(new Structures.MyPoint(0, -3, 0));
-        P1 = Translate3DTo2D(new Structures.MyPoint(0, 3, 0));
+        P0 = TR32/*Translate3DTo2D*/(new Structures.MyPoint(0, -3, 0));
+        P1 = TR32/*Translate3DTo2D*/(new Structures.MyPoint(0, 3, 0));
         g.DrawLine(Pens.Green, P0, P1);
-        P0 = Translate3DTo2D(new Structures.MyPoint(0, 0, -3));
-        P1 = Translate3DTo2D(new Structures.MyPoint(0, 0, 3));
+        P0 = TR32/*Translate3DTo2D*/(new Structures.MyPoint(0, 0, -3));
+        P1 = TR32/*Translate3DTo2D*/(new Structures.MyPoint(0, 0, 3));
         g.DrawLine(Pens.Blue, P0, P1);
         Structures.MyPolygon[] Polygons = _MainData.Item2;
         for (int i = 0; i < MainUnitProcessor.Model.polygonLength; i++)
@@ -108,40 +109,32 @@ namespace Render
     {
       using (Graphics g = Graphics.FromImage(Canvas))
       {
-        g.SmoothingMode = SmoothingMode.HighQuality;
+        g.SmoothingMode = HD;
         int R;
         int G;
         int B;
-        if (Pol.LightCoeff >= 0)  //!
-        {
-          R = (int)((255 * Pol.LightCoeff + 240 * Pol.CameraDist) / 2);
-          G = (int)((255 * Pol.LightCoeff + 150 * Pol.CameraDist) / 2);
-          B = (int)((255 * Pol.LightCoeff + 20 *  Pol.CameraDist) / 2);
-          /*}
-          else
-          {
-            R = (int)(24 * MC);
-            G = (int)(15 * MC);
-            B = (int)(2 * MC);
-          }*/
+          R = (int)((255 * Math.Abs(Pol.LightCoeff) + redOne) / 2);
+          G = (int)((255 * Math.Abs(Pol.LightCoeff) + greenOne) / 2);
+          B = (int)((255 * Math.Abs(Pol.LightCoeff) + blueOne) / 2);
+          
 
           SolidBrush Br = new SolidBrush(Color.FromArgb(R, G, B));
           Structures.MyPoint[] Points = _MainData.Item1;
 
-          Point P0 = Translate3DTo2D(Points[Pol.firstPoint - 1]);
-          Point P1 = Translate3DTo2D(Points[Pol.secondPoint - 1]);
-          Point P2 = Translate3DTo2D(Points[Pol.thirdPoint - 1]);
+          Point P0 = TR32(Points[Pol.firstPoint - 1]);
+          Point P1 = TR32(Points[Pol.secondPoint - 1]);
+          Point P2 = TR32(Points[Pol.thirdPoint - 1]);
           if (Pol.Type == 3)
             g.FillPolygon(Br, new Point[] { P0, P1, P2 });
           else
           {
-            Point P3 = Translate3DTo2D(Points[Pol.fourthPoint - 1]);
+            Point P3 = TR32(Points[Pol.fourthPoint - 1]);
             g.FillPolygon(Br, new Point[] { P0, P1, P2, P3 });
           }
 
           if (hasNormalsVisible)
-            g.DrawLine(Pens.Red, Translate3DTo2D(Points[Pol.firstPoint - 1]), Translate3DTo2D(new Structures.MyPoint(Pol.Vector[0], Pol.Vector[1], Pol.Vector[2])));
-        }
+            g.DrawLine(Pens.Red, TR32(Points[Pol.firstPoint - 1]), TR32(new Structures.MyPoint(Pol.Vector[0], Pol.Vector[1], Pol.Vector[2])));
+        
       }
     }
     private static void DrawEdge(Structures.MyPolygon Pol)
@@ -150,28 +143,28 @@ namespace Render
       {
         g.SmoothingMode = SmoothingMode.HighQuality;
         Structures.MyPoint[] Points = _MainData.Item1;
-        Point P0 = Translate3DTo2D(Points[Pol.firstPoint - 1]);
-        Point P1 = Translate3DTo2D(Points[Pol.secondPoint - 1]);
-        Point P2 = Translate3DTo2D(Points[Pol.thirdPoint - 1]);
+        Point P0 = TR32(Points[Pol.firstPoint - 1]);
+        Point P1 = TR32(Points[Pol.secondPoint - 1]);
+        Point P2 = TR32(Points[Pol.thirdPoint - 1]);
         if (Pol.Type == 3)
           g.DrawPolygon(Pens.White, new Point[] { P0, P1, P2 });
         else
         {
-          Point P3 = Translate3DTo2D(Points[Pol.fourthPoint - 1]);
+          Point P3 = TR32(Points[Pol.fourthPoint - 1]);
           g.DrawPolygon(Pens.White, new Point[] { P0, P1, P2, P3 });
         }
       }
     }
-    private static Point Translate3DTo2D(Structures.MyPoint TempPoint)
+    private static Point TR32(Structures.MyPoint TempPoint)
     {
-        const double empyricParam = -0.2;
-      double realXCoord = (TempPoint.X - fxc) * Math.Cos(alphaAngle) - (TempPoint.Y - fyc) * Math.Sin(alphaAngle);
-      double realYCoord = ((TempPoint.X - fxc) * Math.Sin(alphaAngle) +
-          (TempPoint.Y - fyc) * Math.Cos(alphaAngle)) * Math.Cos(betaAngle) -
-          (TempPoint.Z - fzc) * Math.Sin(betaAngle);
-      double realZCoord = ((TempPoint.X - fxc) * Math.Sin(alphaAngle) +
-          (TempPoint.Y - fyc) * Math.Cos(alphaAngle)) * Math.Sin(betaAngle) +
-          (TempPoint.Z - fzc) * Math.Cos(betaAngle);
+      const double empyricParam = -0.2;
+      double realXCoord = (TempPoint.x - fxc) * Math.Cos(alphaAngle) - (TempPoint.y - fyc) * Math.Sin(alphaAngle);
+      double realYCoord = ((TempPoint.x - fxc) * Math.Sin(alphaAngle) +
+          (TempPoint.y - fyc) * Math.Cos(alphaAngle)) * Math.Cos(betaAngle) -
+          (TempPoint.z - fzc) * Math.Sin(betaAngle);
+      double realZCoord = ((TempPoint.x - fxc) * Math.Sin(alphaAngle) +
+          (TempPoint.y - fyc) * Math.Cos(alphaAngle)) * Math.Sin(betaAngle) +
+          (TempPoint.z - fzc) * Math.Cos(betaAngle);
       realXCoord /= realZCoord * empyricParam + 1;
       realYCoord /= realZCoord * empyricParam + 1;
       int imaginaryXCoord = (int)Math.Round(windowWidth * (realXCoord - leftXViewingBoundary) / (rightXViewingBoundary - leftXViewingBoundary));

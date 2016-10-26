@@ -8,7 +8,7 @@ namespace Render
   public static class MainUnitProcessor
   {
     
-    public static ModelClass Model = new ModelClass();
+    public static ModelClass Model;
 
     public static void ParseModel(string Input)
     {

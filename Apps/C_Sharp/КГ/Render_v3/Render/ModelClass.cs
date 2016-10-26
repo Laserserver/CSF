@@ -13,6 +13,7 @@ namespace Render
     public double[] LightVector;
     public double Zoom;
     public double ZoomCoeff;
+    public byte ZoomAxis;
 
     private double[] _camera;
     public Structures.MyPoint[] points;
@@ -38,6 +39,7 @@ namespace Render
       _camera = new double[3] { 0, 0, 10 };
       ZoomCoeff = 1;
       AxisTurning = 1;
+      ZoomAxis = 1;
     }
     public void SetTurning(double Angle)
     {
@@ -180,33 +182,33 @@ namespace Render
     {
       for (int i = 0; i < polygonLength; i++)
       {
-        polygons[i].LightCoeff = MatricesAndVectors.GetCosBetweenVectors(
+        polygons[i].LightCoeff = VectorOperations.GetCosBetweenVectors(
           LightVector, polygons[i].Vector);
-        polygons[i].CameraCoeff = MatricesAndVectors.VectorGetLength(
+        polygons[i].cameraCoeff = VectorOperations.VectorGetLength(
           _camera, polygons[i].Vector);
-        double[] TempVector = MatricesAndVectors.Normalize(_camera);
+       /* double[] TempVector = MatricesAndVectors.Normalize(_camera);
         polygons[i].CameraDist = Math.Abs(
-          polygons[i].Equation[0] * _camera[0] +
-          polygons[i].Equation[1] * _camera[1] +
-          polygons[i].Equation[2] * _camera[2] +
+          polygons[i].Equation[0] * TempVector[0] +
+          polygons[i].Equation[1] * TempVector[1] +
+          polygons[i].Equation[2] * TempVector[2] +
           polygons[i].Equation[3]) / Math.Sqrt(
             polygons[i].Equation[0] * polygons[i].Equation[0] +
             polygons[i].Equation[1] * polygons[i].Equation[1] +
             polygons[i].Equation[2] * polygons[i].Equation[2]);
        // while (polygons[i].CameraDist > 1)
-            polygons[i].CameraDist *= 0.5;
+            polygons[i].CameraDist *= 0.5;*/
       }
     }
     private void _RotatePoints()
     {
-      MatricesAndVectors.MatrixRotation RotX = new MatricesAndVectors.MatrixRotation(xRotation, 1);
-      MatricesAndVectors.MatrixRotation RotY = new MatricesAndVectors.MatrixRotation(yRotation, 2);
-      MatricesAndVectors.MatrixRotation RotZ = new MatricesAndVectors.MatrixRotation(zRotation, 3);
+      Matrices.MatrixRotation RotX = new Matrices.MatrixRotation(xRotation, 1);
+      Matrices.MatrixRotation RotY = new Matrices.MatrixRotation(yRotation, 2);
+      Matrices.MatrixRotation RotZ = new Matrices.MatrixRotation(zRotation, 3);
       for (int i = 0; i < pointsLength; i++)
       {
-        points[i] = MatricesAndVectors.VectorMultiply(points[i], RotX);
-        points[i] = MatricesAndVectors.VectorMultiply(points[i], RotY);
-        points[i] = MatricesAndVectors.VectorMultiply(points[i], RotZ);
+        points[i] = VectorOperations.VectorMultiply(points[i], RotX);
+        points[i] = VectorOperations.VectorMultiply(points[i], RotY);
+        points[i] = VectorOperations.VectorMultiply(points[i], RotZ);
       }
     }
     public void SetLightVector(double X, double Y, double Z)
@@ -217,14 +219,14 @@ namespace Render
     {
       for (int i = 0; i < polygonLength; i++)
       {
-        polygons[i].Vector = MatricesAndVectors.VectorCrossProduct(new double[] {
-          points[polygons[i].secondPoint - 1].X - points[polygons[i].firstPoint - 1].X,
-          points[polygons[i].secondPoint - 1].Y - points[polygons[i].firstPoint - 1].Y,
-          points[polygons[i].secondPoint - 1].Z - points[polygons[i].firstPoint - 1].Z}, new double[] {
-          points[polygons[i].thirdPoint - 1].X - points[polygons[i].firstPoint - 1].X,
-          points[polygons[i].thirdPoint - 1].Y - points[polygons[i].firstPoint - 1].Y,
-          points[polygons[i].thirdPoint - 1].Z - points[polygons[i].firstPoint - 1].Z});
-        polygons[i].Vector = MatricesAndVectors.Normalize(polygons[i].Vector);
+        polygons[i].Vector = VectorOperations.VectorCrossProduct(new double[] {
+          points[polygons[i].secondPoint - 1].x - points[polygons[i].firstPoint - 1].x,
+          points[polygons[i].secondPoint - 1].y - points[polygons[i].firstPoint - 1].y,
+          points[polygons[i].secondPoint - 1].z - points[polygons[i].firstPoint - 1].z}, new double[] {
+          points[polygons[i].thirdPoint - 1].x - points[polygons[i].firstPoint - 1].x,
+          points[polygons[i].thirdPoint - 1].y - points[polygons[i].firstPoint - 1].y,
+          points[polygons[i].thirdPoint - 1].z - points[polygons[i].firstPoint - 1].z});
+        polygons[i].Vector = VectorOperations.Normalize(polygons[i].Vector);
       }
     }
     private void _SortPolygons()
@@ -236,7 +238,7 @@ namespace Render
         for (int i = 0; i < (polygonLength - step); i++)
         {
           j = i;
-          while ((j >= 0) && (polygons[j].CameraDist <= polygons[j + step].CameraDist))
+          while ((j >= 0) && (polygons[j].MaxZ >= polygons[j+step].MaxZ))//(points[polygons[j].MaxZ-1].Z/*CameraDist*/ <= polygons[j + step].CameraDist))
           {
             Structures.MyPolygon tmp = polygons[j];
             polygons[j] = polygons[j + step];
@@ -251,7 +253,8 @@ namespace Render
     {
       for (int i = 0; i < polygonLength; i++)
       {
-        polygons[i].Equation = _GetEquation(polygons[i]);
+        //polygons[i].Equation = _GetEquation(polygons[i]);
+        GetMaxZ(polygons[i]);
       }
     }
     private double[] _GetEquation(Structures.MyPolygon Pol)
@@ -260,15 +263,15 @@ namespace Render
       Structures.MyPoint Z2 = points[Pol.secondPoint - 1];
       Structures.MyPoint Z3 = points[Pol.thirdPoint - 1];
 
-      double x1 = Convert.ToDouble(Z1.X);
-      double y1 = Convert.ToDouble(Z1.Y);
-      double z1 = Convert.ToDouble(Z1.Z);
-      double x2 = Convert.ToDouble(Z2.X);
-      double y2 = Convert.ToDouble(Z2.Y);
-      double z2 = Convert.ToDouble(Z2.Z);
-      double x3 = Convert.ToDouble(Z3.X);
-      double y3 = Convert.ToDouble(Z3.Y);
-      double z3 = Convert.ToDouble(Z3.Z);
+      double x1 = Convert.ToDouble(Z1.x);
+      double y1 = Convert.ToDouble(Z1.y);
+      double z1 = Convert.ToDouble(Z1.z);
+      double x2 = Convert.ToDouble(Z2.x);
+      double y2 = Convert.ToDouble(Z2.y);
+      double z2 = Convert.ToDouble(Z2.z);
+      double x3 = Convert.ToDouble(Z3.x);
+      double y3 = Convert.ToDouble(Z3.y);
+      double z3 = Convert.ToDouble(Z3.z);
 
       double a = y1 * (z2 - z3) + y2 * (z3 - z1) + y3 * (z1 - z2);
       double b = z1 * (x2 - x3) + z2 * (x3 - x1) + z3 * (x1 - x2);
@@ -283,6 +286,38 @@ namespace Render
       }*/
       double[] Equation = new double[4] { a, b, c, d };
       return Equation;
+    }
+    public void ZoomWithCoeffs(int Delta, double X, double Y, double Z)
+    {
+      Matrices.MatrixResizing Rez;
+      Rez = new Matrices.MatrixResizing(Delta < 0, X, Y, Z);
+      for (int i = 0; i < pointsLength; i++)
+      {
+        points[i] = VectorOperations.VectorMultiply(points[i], Rez);
+      }
+    }
+    public void MoveWithCoeffs(int Delta, double X, double Y, double Z)
+    {
+      int mult = Delta < 0 ? 1 : -1;
+      Matrices.MatrixTranslation Rez = new Matrices.MatrixTranslation(mult * X, mult * Y, mult * Z);
+      for (int i = 0; i < pointsLength; i++)
+      {
+        points[i] = VectorOperations.VectorMultiply(points[i], Rez);
+      }
+    }
+    private void GetMaxZ(Structures.MyPolygon Pol)
+    {
+      double Z1 = points[Pol.firstPoint - 1].z;
+      double Z2 = points[Pol.secondPoint - 1].z;
+      double Z3 = points[Pol.thirdPoint - 1].z;
+      double[] Arr = new double[] { Z1, Z2, Z3 };
+      if (Pol.Type == 4)
+      {
+        double Z4 = points[Pol.fourthPoint - 1].z;
+        Arr = new double[] { Z1, Z2, Z3, Z4 };
+      }
+      Array.Sort(Arr);
+      Pol.MaxZ = Pol.Type == 4 ? Arr[3] : Arr[2];
     }
   }
 }

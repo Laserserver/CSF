@@ -15,7 +15,7 @@ namespace Render
     public double ZoomCoeff;
     public byte ZoomAxis;
 
-    private double[] _camera;
+    public double[] _camera;
     public Structures.MyPoint[] points;
     public Structures.MyEdge[] edges;
     public Structures.MyPolygon[] polygons;
@@ -36,7 +36,7 @@ namespace Render
       polygonLength = 0;
       normals = new Structures.MyPoint[0];
       normLength = 0;
-      _camera = new double[3] { 0, 0, 10 };
+      _camera = new double[3] { 0, 0, 100 };
       ZoomCoeff = 1;
       AxisTurning = 1;
       ZoomAxis = 1;
@@ -99,13 +99,20 @@ namespace Render
             case "f ":
               if (flag)
               {
+                if (Arr[i].IndexOf('/') != -1)
+                {
                 string[] tmp = Arr[i].Split(' ');
                 int Leng = tmp[1].Length;
+                
                 tmp = tmp[1].Split('/');
-                if (tmp[1][0] != '/')
-                  FType = tmp.Length;
+                
+                  if (tmp[1][0] != '/')
+                    FType = tmp.Length;
+                  else
+                    FType = 4;
+                }
                 else
-                  FType = 4;
+                  FType = 5;
                 flag = false;
               }
               Row = Arr[i].Split(null as string[], StringSplitOptions.RemoveEmptyEntries);
@@ -138,6 +145,10 @@ namespace Render
                   break;
                 case 4:
                   //Кек
+                  break;
+                case 5:
+                  for (int k = 1; k <= RowLength; k++)
+                    F[k - 1] = int.Parse(Row[k]);
                   break;
               }
               Array.Resize(ref polygons, ++polygonLength);

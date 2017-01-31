@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TempCons", "TempCons\TempCons.csproj", "{EA8CCD22-D2CA-4572-AA50-3A5CDF02B938}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EA8CCD22-D2CA-4572-AA50-3A5CDF02B938}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA8CCD22-D2CA-4572-AA50-3A5CDF02B938}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA8CCD22-D2CA-4572-AA50-3A5CDF02B938}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA8CCD22-D2CA-4572-AA50-3A5CDF02B938}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

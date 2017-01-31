@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Draw3D.Graph">
+    <Position X="2.75" Y="0.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="true" />
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Struct Name="Draw3D.Graph.TEdges" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Graph.partial.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+    </NestedTypes>
+    <AssociationLine Name="Nodes" Type="Draw3D.TNode">
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="1.391" Y="-0.148" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AwA4gYQAIhiEEjQQjEACIBBogyAMIQCIYRgDoGBOQME=</HashCode>
+      <FileName>Graph.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="Nodes" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Draw3D.MyStack">
+    <Position X="0.5" Y="2.75" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="true" />
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Class Name="Draw3D.MyStack.Node" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Graph.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIAAAAAAAAAAAAAgAABCAAAAAAAAAAAAASgA=</HashCode>
+      <FileName>Graph.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Draw3D.TNode">
+    <Position X="5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAEAAAAAAAEBCCAAABgAAAAAAQ=</HashCode>
+      <FileName>Graph.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="Edge" />
+    </ShowAsAssociation>
+  </Class>
+  <Struct Name="Draw3D.Lib">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAAAAAAAAAAACAAAAiAEAAAAAAAAAACAAAAA=</HashCode>
+      <FileName>Graph.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="graph" />
+      <Field Name="myStack" />
+    </ShowAsAssociation>
+  </Struct>
+  <Struct Name="Draw3D.TEdge">
+    <Position X="7.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAAAAgAAAAAAAAAAAAAQAAAADAAAAAIAAAAAA=</HashCode>
+      <FileName>Graph.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

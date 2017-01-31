@@ -1,0 +1,15 @@
+﻿<Window x:Name="Triforce" x:Class="Triforce.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Triforce"
+        mc:Ignorable="d"
+        Title="Трифорс" Height="350" Width="226.622">
+    <Grid Margin="0,0,2,0">
+        <TextBox x:Name="CtrlTBOut" HorizontalAlignment="Left" Height="221" Margin="10,88,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="198"/>
+        <Button x:Name="CtrlBaton" Content="Button" HorizontalAlignment="Left" Margin="10,39,0,0" VerticalAlignment="Top" Width="75" Click="CtrlBaton_Click"/>
+        <TextBox x:Name="CtrlTBIn" HorizontalAlignment="Left" Height="24" Margin="10,10,0,0" TextWrapping="Wrap" Text="1" VerticalAlignment="Top" Width="91"/>
+
+    </Grid>
+</Window>

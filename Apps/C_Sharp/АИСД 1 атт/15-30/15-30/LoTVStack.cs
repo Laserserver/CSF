@@ -10,7 +10,9 @@
       node_Element = Element;
     }
   }
-
+    /// <summary>
+    /// Сас
+    /// </summary>
   class LoTVStackNode
   {
     public LoTVData node_Data;

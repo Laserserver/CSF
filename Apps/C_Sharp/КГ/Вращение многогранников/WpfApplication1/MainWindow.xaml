@@ -1,0 +1,27 @@
+﻿<Window
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Icosaedr"
+        xmlns:Properties="clr-namespace:Icosaedr.Properties" x:Class="Icosaedr.MainWindow"
+        mc:Ignorable="d"
+        Title="Icosaedr" Height="559.723" Width="847.368" WindowStyle="ToolWindow" Background="#FFE5EBF1" Foreground="{x:Null}" WindowStartupLocation="CenterScreen">
+    <Grid HorizontalAlignment="Left" Height="332" Margin="10,10,0,0" VerticalAlignment="Top" Width="806">
+        <Grid.Background>
+            <ImageBrush/>
+        </Grid.Background>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="11*"/>
+            <ColumnDefinition Width="39*"/>
+        </Grid.ColumnDefinitions>
+        <Canvas x:Name="canv" HorizontalAlignment="Left" Height="494" Margin="10,10,0,0" VerticalAlignment="Top" Width="674" Grid.ColumnSpan="2" Background="White" MouseUp="canv_MouseUp" MouseDown="canv_MouseDown" MouseMove="canv_MouseMove"/>
+        <Button x:Name="button" Content="Загрузить" Grid.Column="1" HorizontalAlignment="Right" Margin="0,22,25,0" VerticalAlignment="Top" Width="75" Click="button_Click"/>
+        <Button x:Name="button1" Content="Вращение" Grid.Column="1" HorizontalAlignment="Right" Margin="0,47,25,0" VerticalAlignment="Top" Width="75" Click="button1_Click"/>
+        <CheckBox x:Name="checkBox" Content="По оси X" Grid.Column="1" HorizontalAlignment="Left" Margin="529,103,0,0" VerticalAlignment="Top" Click="checkBox_Click"/>
+        <CheckBox x:Name="checkBox1" Content="По оси Y" Grid.Column="1" HorizontalAlignment="Left" Margin="529,123,0,0" VerticalAlignment="Top" Click="checkBox1_Click"/>
+        <CheckBox x:Name="checkBox2" Content="По оси Z" Grid.Column="1" HorizontalAlignment="Left" Margin="529,143,0,0" VerticalAlignment="Top" Click="checkBox2_Click"/>
+        <TextBox x:Name="CtrlTxb" Grid.Column="1" HorizontalAlignment="Left" Height="23" Margin="529,190,0,0" TextWrapping="Wrap" Text="1" VerticalAlignment="Top" Width="90" TextChanged="CtrlTxb_TextChanged"/>
+
+    </Grid>
+</Window>

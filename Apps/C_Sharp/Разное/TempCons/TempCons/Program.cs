@@ -10,85 +10,99 @@ namespace TempCons
     {
         static void Main(string[] args)
         {
-            A a1 = new A();
-            A a2 = new B();
-            B b2 = new B();
+            
 
-            bool c1 = a1 is A;
-            bool c2 = a1 is B;
-            bool c3 = a2 is A;
-            bool c4 = a2 is B;
-            bool c5 = b2 is A;
-            bool c6 = b2 is B;
+            Sas.Sas2();
 
-
-            //FactoryPattern.FactoryMethod();
-            //IndexTry.Method();
-            //Console.Read();
-
-            //Entity Cat = new Cat();
-            //Entity Dog = new Dog();
-
-            //Cat.Sound();
-            //Dog.Sound();
             Console.Read();
         }
-
     }
 
-    class A
-    {
+    public delegate string MyDel(string input);
 
-    }
-
-    class B : A { }
-
-    abstract class Entity
+    public static class Sas
     {
-        abstract public void Sound();
-    }
-    class Cat : Entity
-    {
-        public override void Sound()
+        static MyDel del = (string a) => { return a + a; };
+
+        public static void Sas2()
         {
-            Console.WriteLine("Мяу");
-        }
-    }
-    class Dog : Entity
-    {
-        public override void Sound()
-        {
-            Console.WriteLine("Гав");
+            Console.WriteLine(del("Сасай"));
+            Console.WriteLine(del("Лалка"));
         }
     }
 
 
-    static class IndexTry
+    public sealed class Rational
     {
-        public static void Method()
+        dynamic Num;
+        public Rational(Int32 num)
         {
-            User Sas = new User()
-            {
-                Name = "Suka mudak"
-            };
-            Console.WriteLine(Sas.Name);
-            Sas[5] = "Lol";
-            Console.WriteLine(Sas[5]);
-            Console.WriteLine(Sas.Name);
+            Num = num;
+        }
+        public Rational(Single num)
+        {
+            Num = num;
+        }
+        public Int32 ToInt32()
+        {
+            return (Int32)Num;
+        }
+        public Single ToSingle()
+        {
+            return 10000;
+        }
+        public static implicit operator Rational(Int32 num)
+        {
+            return new Rational(num);
+        }
+        public static implicit operator Rational(Single num)
+        {
+            return new Rational(num);
+        }
+        public static explicit operator Int32(Rational r)
+        {
+            return r.ToInt32();
+        }
+        public static explicit operator Single(Rational r)
+        {
+            return r.ToSingle();
         }
     }
 
-    interface IInd
+
+    public interface IInt1
     {
-        string this[int ind] { get; set; }
+        void Action();
     }
 
-    class User : IInd
+    public interface IInt2
     {
-        private string name;
+        void Action();
+    }
 
-        public string this[int ind] { get => name; set => name = value; }
+    public class FirstClass : IInt1, IInt2
+    {
+        void IInt1.Action()
+        {
+            Console.WriteLine("It was first");
+        }
 
-        public string Name { get => name; set => name = value; }
+        void IInt2.Action()
+        {
+            Console.WriteLine("It was second");
+        }
+
+        public void Action()
+        {
+            Console.WriteLine("Standard invoke");
+        }
+    }
+
+    public class SecondClass : IInt1, IInt2
+    {
+        public void Action()
+        {
+            Console.WriteLine("Just active");
+        }
     }
 }
